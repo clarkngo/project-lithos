@@ -1,6 +1,6 @@
 # Codex web
 
-Astro + Tailwind static site for *The Last Lithoi*. Lore is **not hardcoded** here — pages render Markdown from `docs/` at build time, and the Inscription calculator imports `tools/resonance-engine/catalog.json`.
+Astro + Tailwind static site for *The Last Lithoi*. Lore is **not hardcoded** here — pages render Markdown from `docs/` and `/novel` at build time, and the Inscription calculator imports `tools/resonance-engine/catalog.json`.
 
 ## Scripts
 
