@@ -19,8 +19,9 @@ Confirmed on the page (Book One, Act One, early chapters):
 - Palms knit too warm, too quickly after the climb out of the mine.
 - Eyes that throw lantern-light back at night, cat-fashion — Caelen does not yet know this about himself when Varrick first sees it.
 - Caloric debt shows early: thinning wrists, grey lips, a cold that banks behind the ribs even when the air warms.
+- Adult camouflage (Act Two): an empty brass housing on the **left** forearm that has never held a core.
 
-<!-- TODO: confirm against manuscript — adult height, scarring pattern, conduit laterality, and how Drift reads on his face in Act Two. -->
+<!-- TODO: confirm against manuscript — adult height, scarring pattern, and how Drift reads on his face in Act Two. -->
 
 ## Voice / dialogue notes
 

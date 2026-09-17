@@ -10,7 +10,7 @@ Canonical reference for *The Last Lithoi*. The manuscript in `/novel` is the sou
 |---|---|---|
 | Characters | [characters/](characters/) | Dossiers for the principal cast |
 | Factions | [factions/](factions/) | Mining Guild, Warden Enforcers, the Synod |
-| Magic system | [magic-system/](magic-system/) | Lithosomatic Resonance, inscription triads, costs |
+| Magic system | [magic-system/](magic-system/) | Lithosomatic Resonance, field manual, inscription triads, costs |
 | Timeline | [timeline/](timeline/) | Pre-Culling, the Culling, post-war reconstruction |
 | Glossary | [glossary.md](glossary.md) | Terminology lexicon for the Codex and for prose |
 

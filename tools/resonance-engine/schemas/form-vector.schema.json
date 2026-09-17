@@ -54,6 +54,10 @@
       "type": "boolean",
       "description": "True when this entry is a working example, not a confirmed in-world catalog item."
     },
+    "attested": {
+      "type": "boolean",
+      "description": "True when the name appears in the project lexicon (style guide), even if physiology is still illustrative."
+    },
     "notes": {
       "type": "string"
     }

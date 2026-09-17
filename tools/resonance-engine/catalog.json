@@ -10,7 +10,8 @@
       "caloricWeight": 2,
       "driftWeight": 1,
       "illustrative": true,
-      "notes": "Named example from the terminology lexicon. Full physiology is undetermined."
+      "attested": true,
+      "notes": "Named in the terminology lexicon. Varrick's cautionary Resonant ran a licensed Talon Vector, three cores locked and legal. Physiology still illustrative."
     },
     {
       "id": "barrow",
@@ -22,7 +23,8 @@
       "caloricWeight": 3,
       "driftWeight": 1,
       "illustrative": true,
-      "notes": "Named example from the terminology lexicon."
+      "attested": true,
+      "notes": "Named in the terminology lexicon. Full physiology is undetermined."
     },
     {
       "id": "ridge",
@@ -34,7 +36,8 @@
       "caloricWeight": 2,
       "driftWeight": 0,
       "illustrative": true,
-      "notes": "Extra illustrative example — not attested in the lexicon."
+      "attested": false,
+      "notes": "Extra illustrative example — not attested in the lexicon. Do not treat as spoken on the page."
     }
   ],
   "affinityCadences": [
@@ -49,7 +52,8 @@
       "driftWeight": 1,
       "hypothermiaWeight": 4,
       "illustrative": true,
-      "notes": "Named example from the terminology lexicon."
+      "attested": true,
+      "notes": "Named in the terminology lexicon."
     },
     {
       "id": "marsh",
@@ -62,7 +66,8 @@
       "driftWeight": 1,
       "hypothermiaWeight": 3,
       "illustrative": true,
-      "notes": "Named example from the terminology lexicon."
+      "attested": true,
+      "notes": "Named in the terminology lexicon."
     },
     {
       "id": "gale",
@@ -75,7 +80,8 @@
       "driftWeight": 1,
       "hypothermiaWeight": 4,
       "illustrative": true,
-      "notes": "Extra illustrative example — not attested in the lexicon."
+      "attested": false,
+      "notes": "Extra illustrative example — not attested in the lexicon. Do not treat as spoken on the page."
     }
   ],
   "mutatorNodes": [
@@ -89,7 +95,8 @@
       "driftModifier": 0,
       "hypothermiaModifier": 1,
       "illustrative": true,
-      "notes": "Named example from the terminology lexicon (mass)."
+      "attested": true,
+      "notes": "Named in the terminology lexicon (mass)."
     },
     {
       "id": "feral",
@@ -101,7 +108,8 @@
       "driftModifier": 3,
       "hypothermiaModifier": 0,
       "illustrative": true,
-      "notes": "Named example from the terminology lexicon (instinct-dominance)."
+      "attested": true,
+      "notes": "Named in the terminology lexicon (instinct-dominance). Drift-accelerant status in-world is still a hypothesis; the feeling is already how Drift reads in prose."
     },
     {
       "id": "hollow",
@@ -113,7 +121,8 @@
       "driftModifier": 1,
       "hypothermiaModifier": 2,
       "illustrative": true,
-      "notes": "Extra illustrative example — not attested in the lexicon."
+      "attested": false,
+      "notes": "Extra illustrative example — not attested in the lexicon. Do not treat as spoken on the page."
     }
   ]
 }

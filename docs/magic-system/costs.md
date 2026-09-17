@@ -2,7 +2,7 @@
 title: Costs
 description: Caloric debt, tissue tearing, post-Shift hypothermia, and Atavistic Drift.
 collection: magic-system
-order: 3
+order: 4
 ---
 
 # Costs
@@ -15,7 +15,9 @@ A Shift burns stored fat and muscle at a lethal rate. Hunger has a voice. Long-t
 
 Caelen's early forest days already show the debt before he has a word for it: thinning wrists, a cold banked behind the ribs, food that cannot keep up with what the changed body spends.
 
-<!-- TODO: confirm against manuscript — whether licensed Wardens mitigate debt with issued rations, and whether Synod suppression also suppresses hunger or only the Shift. -->
+Licensed Resonants spend cores. Caelen spends himself. Food still has to match the burn either way. Warden **issued rations** as a license perk are not on the page.
+
+<!-- TODO: confirm against manuscript — whether a Guild or Warden housing comes with a ration chit; whether Synod suppression also kills hunger or only the Shift. -->
 
 ## Tissue tearing
 
@@ -33,9 +35,15 @@ The psychological toll of repeated or prolonged Shifting: the mind's slow erosio
 
 Characters **drift**. They do not level up.
 
-Drift is named and feared (not left as an abstract danger) once the people who love Caelen have seen him Shift on purpose. It is a meter across Book One: introduced in the first full Shift, tested when Rook pulls away, nearly lost in the Wastes, confronted when the Vault shows what undamped Resonance used to be.
+Rest and food pay caloric debt. They do not wash Drift out. Varrick's licensed Talon man forgot names and stayed half in the shape longer after each Shift; Wardens filed the end as a wild-animal incident.
 
-<!-- TODO: confirm against manuscript — whether Drift is reversible by rest and food, only arrested, or strictly cumulative; whether certain Nodes (Feral) are understood in-world as Drift accelerants. -->
+The Synod's public answer is **suppression** (and silence). A Lithoi-era **tethering rite** — treatment, not cure — is the other answer, and it is not offered to families.
+
+Feral Node as a named in-world Drift accelerant is still catalog hypothesis. The feeling (instinct arriving before the name) is already how Drift reads in prose.
+
+See the [Field manual](field-manual.md) for the meter and for consecutive-Shift danger.
+
+<!-- TODO: confirm against manuscript — in-world slang besides the Synod's "Atavistic Drift"; whether any Node is sold with a Drift warning on the fitting. -->
 
 ## Aftercare (working practice)
 

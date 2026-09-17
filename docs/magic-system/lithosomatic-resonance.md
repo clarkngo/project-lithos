@@ -25,7 +25,9 @@ Three slots, in order:
 
 Locking cores is the trigger. Unlocking them does not instantly return a body to what it was; the aftermath is paid in time, food, and heat.
 
-<!-- TODO: confirm against manuscript — how long a Shift can be held, whether cores can be swapped mid-Shift, and whether Caelen's strata-grown Resonance can fire *without* a conduit in early chapters (his first attempted Shift is accidental). -->
+The housing is the same object as the conduit: brass, forearm, three sockets. Wardens seize a **housing**. Scavengers get them reforged quiet. A core can be **near spent** and still count as a core.
+
+**Ordinary Resonants** need core + housing + a fitting they have not lied about. **Caelen** does not. See the [Field manual](field-manual.md) for hold duration, mid-Shift swaps, licensed work, unassisted transformation, and Drift as it is actually spent.
 
 ## Aethel-Cores
 

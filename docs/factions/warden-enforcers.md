@@ -13,7 +13,7 @@ order: 2
 
 Wardens speak — and therefore act — in stacked clauses. Precise language is what keeps them blameless later. The raid, the seizure, the case assignment: violence that can be cited.
 
-<!-- TODO: confirm against manuscript — rank ladder, whether Wardens are licensed to Shift in the line of duty, how cases are assigned, and the exact legal relationship to the Synod (subordinate, parallel, or "doctrine advises / Wardens execute"). -->
+<!-- TODO: confirm against manuscript — rank ladder, how cases are assigned, and the exact legal relationship to the Synod (subordinate, parallel, or "doctrine advises / Wardens execute"). -->
 
 Malakar is the order as a person: an investigator, not a duelist, closing a file that happens to be a child.
 
@@ -31,6 +31,14 @@ The Culling is the historical crime that made their job feel like hygiene. They 
 
 ## Relationship to Resonance
 
-Unlicensed Shifting is the offense. Licensed use is not innocence; it is paperwork that held. Atavistic Drift is feared as a public-order problem as much as a private damnation — a mind that has eroded toward predatory instinct is a Warden's future case file.
+Unlicensed Shifting is the offense. Licensed use is not innocence; it is paperwork that held.
+
+Warden law as practiced: **confiscate the core, seize the housing, license the conduit or destroy it.** That architecture assumes a Resonant who *chose* the power and *purchased* the means. **Unassisted transformation** (no core, no housing, no residue) has no clause — Malakar has to note, in writing, that whatever they do to Caelen will be built afterward to justify itself.
+
+Intent does not save you. An unlicensed mother who Shifted to save a drowning child is still **wild-Resonant containment** (Greyfen; Book Two). Drift leftovers get written up as **wild-animal incidents** when that is easier on conscience.
+
+Whether Wardens themselves Shift on duty (a licensed triad under a badge) is still unstated. Malakar is an investigator. Do not kit him as a combat Resonant until the page does.
+
+Atavistic Drift is a public-order problem as much as a private damnation — a mind eroded toward predatory instinct is a future case file.
 
 When Vault knowledge surfaces, the order's temptation is suppression: not even law applied evenly, but doctrine applied where it is told to apply.

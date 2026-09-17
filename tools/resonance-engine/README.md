@@ -14,7 +14,9 @@ The Codex web app (`apps/codex-web`) imports `catalog.json` directly. Keep this 
 | `examples/invalid/` | Instances that must fail, with expected failure mode in `manifest.json` |
 | `validate.mjs` | Ajv-backed checker used in CI |
 
-Every catalog entry is flagged `"illustrative": true`. Named lexicon examples (Talon, Barrow, Ember, Marsh, Gross, Feral) plus a few extras (Ridge, Gale, Hollow) are working placeholders — confirm against the manuscript before treating them as canon.
+Every catalog entry is still `"illustrative": true` (physiology is not locked). `"attested": true` means the **name** is in the project lexicon (Talon, Barrow, Ember, Marsh, Gross, Feral). Ridge, Gale, and Hollow are extras — do not speak them on the page until the manuscript does.
+
+Field practice (hold duration, unassisted transformation, Drift) lives in `docs/magic-system/field-manual.md`, not in this JSON.
 
 ## Run
 

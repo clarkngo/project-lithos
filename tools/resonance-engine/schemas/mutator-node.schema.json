@@ -54,6 +54,10 @@
     "illustrative": {
       "type": "boolean"
     },
+    "attested": {
+      "type": "boolean",
+      "description": "True when the name appears in the project lexicon."
+    },
     "notes": {
       "type": "string"
     }

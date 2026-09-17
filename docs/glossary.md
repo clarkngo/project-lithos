@@ -29,8 +29,24 @@ terms:
     seeAlso: [form-vector, affinity-cadence, atavistic-drift]
   - id: conduit
     term: Conduit
-    definition: The mechanical housing, typically forearm-mounted, that locks Aethel-Cores in place and channels Resonance into the body. Always brass; always cold before a Shift and scalding after.
-    seeAlso: [the-shift, aethel-core]
+    definition: The mechanical housing, typically forearm-mounted, that locks Aethel-Cores in place and channels Resonance into the body. Always brass; always cold before a Shift and scalding after. Also called a housing — Wardens seize housings.
+    seeAlso: [the-shift, aethel-core, fitting]
+  - id: fitting
+    term: Fitting
+    definition: Matching core, housing, and what the body can afford to spend. A bungled fitting is how a licensed display becomes a Drift file.
+    seeAlso: [conduit, the-shift, atavistic-drift]
+  - id: half-shift
+    term: Half-Shift
+    definition: Lighting only as much Resonance as the job needs — a lengthened hand, a hauled wheel — without tipping into the hungry undertow. Adult Caelen's daily discipline, not a separate school of magic.
+    seeAlso: [the-shift, caloric-debt, atavistic-drift]
+  - id: unassisted-transformation
+    term: Unassisted transformation
+    definition: Warden-file language for a Shift with no core, no housing, and no core residue. The doctrine has no clause; Caelen is the case that broke the form.
+    seeAlso: [the-shift, conduit, warden-enforcers]
+  - id: tethering-rite
+    term: The tethering rite
+    definition: A Lithoi-era methodology for drawing a drifting mind back from the edge — treatment, not cure, not Synod suppression. Sealed in reliquary fragments; not offered to families who lost someone to Drift.
+    seeAlso: [atavistic-drift, the-synod, lithoi]
   - id: the-shift
     term: The Shift
     definition: The act and event of transformation. Never instantaneous — a violent biological process with a beginning, middle, and aftermath.
