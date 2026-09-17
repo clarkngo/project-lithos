@@ -4,7 +4,7 @@ Default lock is **E**. Other locks are archive-only. Never copy Breath of Fire (
 
 ## Style lock E — late-90s JRPG (default)
 
-Late 1990s JRPG promotional illustration, painted-cel. Saturated but earthy: charcoal, worn brass, dirty cloth, amber-dark glass. Character-forward, thumbnail-clear silhouettes. Original The Last Lithoi designs only. No publisher logos, no studio marks, no dates, no “coming soon” type. Not European bande dessinée, not photoreal, not modern gacha anime, not 3D.
+Late 1990s JRPG promotional illustration, painted-cel. Saturated but earthy: charcoal, worn brass, dirty cloth, amber-dark glass. Character-forward, thumbnail-clear silhouettes. Original The Last Lithoi designs only. No publisher logos, no studio marks, no dates, no “coming soon” type. **Character portraits: no overlay titles, captions, or watermarks — empty ground, letters only if they are a poster title on key-art.** Not European bande dessinée, not photoreal, not modern gacha anime, not 3D.
 
 ## Archive locks (do not use unless testing)
 

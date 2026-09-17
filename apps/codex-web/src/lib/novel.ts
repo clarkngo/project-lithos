@@ -6,6 +6,12 @@ const rawNovel = import.meta.glob("../../../../novel/**/*.md", {
   import: "default",
 }) as Record<string, string>;
 
+const chapterArt = import.meta.glob("../../../../art/chapters/**/*.png", {
+  eager: true,
+  query: "?url",
+  import: "default",
+}) as Record<string, string>;
+
 export type NovelKind = "front-matter" | "chapter";
 
 export type NovelPiece = {
@@ -20,6 +26,7 @@ export type NovelPiece = {
   title: string;
   description: string;
   html: string;
+  plateSrc?: string;
 };
 
 export type NovelBook = {
@@ -86,6 +93,12 @@ function renderMarkdown(body: string): string {
   return marked.parse(body, { async: false, gfm: true }) as string;
 }
 
+function chapterPlateSrc(path: string): string | undefined {
+  const needle = `/art/chapters/${path}.png`;
+  const match = Object.entries(chapterArt).find(([key]) => key.replaceAll("\\", "/").endsWith(needle));
+  return match?.[1];
+}
+
 function parsePiece(rel: string, source: string): NovelPiece | null {
   const parts = rel.split("/");
   if (!parts[0]?.startsWith("book-")) return null;
@@ -118,6 +131,7 @@ function parsePiece(rel: string, source: string): NovelPiece | null {
     title,
     description: firstParagraph(source),
     html: renderMarkdown(source),
+    plateSrc: chapterPlateSrc(rel),
   };
 }
 

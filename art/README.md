@@ -15,6 +15,7 @@ The Codex (`apps/codex-web`) displays this folder as the site's main art: key ar
 | `characters/` | Cast portraits and key art |
 | `artifacts/` | Aethel-Cores, marrow-glass, brass conduits |
 | `resonance/` | Shifts and system plates |
+| `chapters/` | Per-chapter plates (`book-N/act-N/chapter-NN.png`), no overlay type |
 
 
 ## Illustration style
@@ -29,9 +30,11 @@ See [visual-direction.md](visual-direction.md) for palette, bans, and JRPG rules
 
 **World:** deep-strata seam, forest above the mine, Hollow Cut, Glass Wastes, the Vault, the Spire (illustrative).
 
-**Cast:** Caelen, Varrick, key art. **Speculative** (not yet on the page): Rook, Malakar, Seraphina.
+**Cast:** Caelen, Varrick, key art. **Speculative** (not yet on the page): Rook, Malakar, Seraphina. Character portraits have no overlay type; key-art may keep a poster title.
 
 **Artifacts / system:** Aethel-Cores, brass conduit, Lithoi reconstruction (illustrative), a costly Shift.
+
+**Chapters:** Book One, Acts 1–2 — letterless painted-cel plates at `chapters/book-1/`.
 
 ## Rules
 

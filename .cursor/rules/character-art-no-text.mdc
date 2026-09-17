@@ -1,0 +1,14 @@
+---
+description: Character plates have no overlay titles, captions, or watermarks
+globs: art/characters/**
+alwaysApply: false
+---
+
+# Character art: no baked-in text
+
+Character portraits in `art/characters/` are picture-only. Captions live in the Codex, not in the pixels.
+
+- No titles, watermarks, logos, dates, or “Original / The Last Lithoi” stamps on portraits (Seraphina, Rook, Malakar, Caelen, Varrick).
+- If a character plate has overlay type, regenerate the likeness. Do not paint over letters.
+- Key-art poster (`key-art-cast.png`) may keep a title; every other character file stays letterless.
+- World / Shift plates are a separate call — do not strip those unless asked.

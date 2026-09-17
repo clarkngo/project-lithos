@@ -15,6 +15,10 @@ const books = listBooks();
       Chapters are rendered from <code>/novel</code> at build time. The manuscript is the source of truth; the Codex
       bible follows it, not the other way around.
     </p>
+    <p class="flex flex-wrap gap-3">
+      <a href={withBase("manuscript/the-last-lithoi-book-1.epub")} class="px-4 py-2 bg-brass text-ink no-underline font-medium hover:bg-amber">Download Book One EPUB</a>
+      <a href={withBase("manuscript/the-last-lithoi-book-1.pdf")} class="px-4 py-2 border border-rule text-paper no-underline hover:border-brass">Download Book One PDF</a>
+    </p>
   </header>
 
   <ul class="grid gap-4 sm:grid-cols-2">

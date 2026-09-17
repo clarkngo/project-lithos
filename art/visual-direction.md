@@ -12,6 +12,7 @@ Take from that pass:
 - Saturated but earthy (charcoal, brass, dirty cloth, amber-dark glass)
 - Thumbnail-clear silhouettes; character-forward
 - Original designs only — no publisher marks, no fake studio logos, no dated “coming soon” paste-on type
+- Character portraits have **no overlay text**. Captions belong in the Codex. If a portrait has a stamp, regenerate it. Key-art poster title is the only exception.
 
 Do **not** take from that pass (or from Breath of Fire): extra blonde party members, hero swords, green/blue spiky hair, crystal-goddess Lithoi, majestic western dragons, floating castle-temples.
 

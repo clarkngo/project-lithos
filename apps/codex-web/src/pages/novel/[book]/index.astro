@@ -37,8 +37,11 @@ const pageTitle = book.subtitle ? `${book.title}: ${book.subtitle}` : book.title
         <ol class="slot-card divide-y divide-rule/60">
           {group.pieces.map((piece) => (
             <li>
-              <a href={withBase(`novel/${piece.path}/`)} class="block px-4 py-3 no-underline hover:bg-raised">
-                <span class="text-paper">{piece.title}</span>
+              <a href={withBase(`novel/${piece.path}/`)} class="block no-underline hover:bg-raised">
+                {piece.plateSrc && (
+                  <img src={piece.plateSrc} alt="" class="w-full h-28 object-cover object-center bg-ink" />
+                )}
+                <span class="block px-4 py-3 text-paper">{piece.title}</span>
               </a>
             </li>
           ))}
