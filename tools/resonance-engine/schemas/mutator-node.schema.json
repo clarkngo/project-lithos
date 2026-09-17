@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://project-lithos.local/schemas/mutator-node.json",
+  "title": "Mutator Node",
+  "description": "Third, optional conduit slot — modifier that scales or distorts Form + Cadence.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "slot",
+    "summary",
+    "effect",
+    "caloricModifier",
+    "driftModifier",
+    "hypothermiaModifier",
+    "illustrative"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slot": {
+      "const": "mutator-node"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "effect": {
+      "type": "string",
+      "minLength": 1
+    },
+    "caloricModifier": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "driftModifier": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "hypothermiaModifier": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "illustrative": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

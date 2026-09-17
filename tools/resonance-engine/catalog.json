@@ -1,0 +1,119 @@
+{
+  "formVectors": [
+    {
+      "id": "talon",
+      "name": "Talon Vector",
+      "slot": "form-vector",
+      "summary": "Raptorial skeletal scaffold: hooked digits, hollow-bone bias, striking posture.",
+      "skeletalScaffold": "hooked distal phalanges; light, load-bearing forelimbs; cranial narrowing toward a striking line",
+      "tissueStress": "nail beds, distal joints, and the small bones of the wrist",
+      "caloricWeight": 2,
+      "driftWeight": 1,
+      "illustrative": true,
+      "notes": "Named example from the terminology lexicon. Full physiology is undetermined."
+    },
+    {
+      "id": "barrow",
+      "name": "Barrow Vector",
+      "slot": "form-vector",
+      "summary": "Subterranean scaffold: heavy-set, load-bearing, built to go into earth rather than over it.",
+      "skeletalScaffold": "shortened limbs; reinforced shoulder girdle; skull thickened against collapse",
+      "tissueStress": "shoulders, spine, and the finger bones that become spades",
+      "caloricWeight": 3,
+      "driftWeight": 1,
+      "illustrative": true,
+      "notes": "Named example from the terminology lexicon."
+    },
+    {
+      "id": "ridge",
+      "name": "Ridge Vector",
+      "slot": "form-vector",
+      "summary": "Plated, weight-bearing spinal shelf; a braced stance rather than a strike or a burrow.",
+      "skeletalScaffold": "dorsal osteoderms; locked lumbar stack; wide stance",
+      "tissueStress": "scapulae, lumbar fascia, and the skin over the new ridge",
+      "caloricWeight": 2,
+      "driftWeight": 0,
+      "illustrative": true,
+      "notes": "Extra illustrative example — not attested in the lexicon."
+    }
+  ],
+  "affinityCadences": [
+    {
+      "id": "ember",
+      "name": "Ember Cadence",
+      "slot": "affinity-cadence",
+      "summary": "Heat and combustion as temperament: short fuse, bright work, a crash after.",
+      "elementalBreath": "heat / combustion",
+      "thermalProfile": "violent thermal overshoot, then a hard crash into hypothermia",
+      "caloricWeight": 3,
+      "driftWeight": 1,
+      "hypothermiaWeight": 4,
+      "illustrative": true,
+      "notes": "Named example from the terminology lexicon."
+    },
+    {
+      "id": "marsh",
+      "name": "Marsh Cadence",
+      "slot": "affinity-cadence",
+      "summary": "Wet weight and anaerobic drag. The body becomes heavier than the water it wants.",
+      "elementalBreath": "wet loam / stagnant breath",
+      "thermalProfile": "low smolder during the Shift; long wet chill in the aftermath",
+      "caloricWeight": 2,
+      "driftWeight": 1,
+      "hypothermiaWeight": 3,
+      "illustrative": true,
+      "notes": "Named example from the terminology lexicon."
+    },
+    {
+      "id": "gale",
+      "name": "Gale Cadence",
+      "slot": "affinity-cadence",
+      "summary": "Pressure and thin air. Restless temperament; heat leaves the body too fast.",
+      "elementalBreath": "pressure / thin air",
+      "thermalProfile": "little fever; shaking cold arrives while the Shift is still running",
+      "caloricWeight": 2,
+      "driftWeight": 1,
+      "hypothermiaWeight": 4,
+      "illustrative": true,
+      "notes": "Extra illustrative example — not attested in the lexicon."
+    }
+  ],
+  "mutatorNodes": [
+    {
+      "id": "gross",
+      "name": "Gross Node",
+      "slot": "mutator-node",
+      "summary": "Scales mass. More body to feed, more body to tear, more body to warm afterward.",
+      "effect": "mass scale — bulk without changing the Form's grammar",
+      "caloricModifier": 2,
+      "driftModifier": 0,
+      "hypothermiaModifier": 1,
+      "illustrative": true,
+      "notes": "Named example from the terminology lexicon (mass)."
+    },
+    {
+      "id": "feral",
+      "name": "Feral Node",
+      "slot": "mutator-node",
+      "summary": "Instinct-dominance. The Shift thinks faster than the name; predatory affect arrives early.",
+      "effect": "instinct-dominance — Drift comes forward in the order of operations",
+      "caloricModifier": 1,
+      "driftModifier": 3,
+      "hypothermiaModifier": 0,
+      "illustrative": true,
+      "notes": "Named example from the terminology lexicon (instinct-dominance)."
+    },
+    {
+      "id": "hollow",
+      "name": "Hollow Node",
+      "slot": "mutator-node",
+      "summary": "Reduces density. Less mass, worse cold, a thinner hold on the name afterward.",
+      "effect": "density drop — identity thins with the bones",
+      "caloricModifier": 0,
+      "driftModifier": 1,
+      "hypothermiaModifier": 2,
+      "illustrative": true,
+      "notes": "Extra illustrative example — not attested in the lexicon."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ember",
+  "name": "Ember Cadence",
+  "slot": "affinity-cadence",
+  "summary": "Intentionally invalid: a cadence stamped as a form vector.",
+  "skeletalScaffold": "n/a",
+  "tissueStress": "n/a",
+  "caloricWeight": 3,
+  "driftWeight": 1,
+  "illustrative": true
+}
