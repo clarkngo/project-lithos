@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+
+jobs:
+  codex-web:
+    name: Codex lint and build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/codex-web
+    env:
+      PUBLIC_BASE_PATH: /project-lithos/
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/codex-web/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
+
+  resonance-engine:
+    name: Resonance schema validation
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tools/resonance-engine
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: tools/resonance-engine/package-lock.json
+      - run: npm ci
+      - run: npm run validate
