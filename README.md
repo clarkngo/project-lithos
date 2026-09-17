@@ -10,6 +10,7 @@ The manuscript lives in `/novel` and is drafted separately. Do not treat this RE
 project-lithos/
 ├── .github/workflows/   CI/CD — Pages deploy + lint/build/schema checks
 ├── apps/codex-web/      Astro + Tailwind lore/docs site
+├── art/                 Concept art (world, Lithoi, cast, artifacts)
 ├── docs/                Canonical worldbuilding & lore bible
 │   ├── characters/
 │   ├── factions/
@@ -24,7 +25,7 @@ project-lithos/
 
 ## Codex site (`apps/codex-web`)
 
-Renders Markdown from `docs/` at build time. The Inscription calculator imports `tools/resonance-engine/catalog.json` — lore is not duplicated inside the app.
+Renders Markdown from `docs/` at build time, and the locked jrpg-v2 plates from `art/` (home key art, cast, map, Resonance). The Inscription calculator imports `tools/resonance-engine/catalog.json` — lore is not duplicated inside the app.
 
 ```bash
 cd apps/codex-web

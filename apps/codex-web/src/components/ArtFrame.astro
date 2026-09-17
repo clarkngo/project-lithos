@@ -1,0 +1,22 @@
+---
+import type { ArtPlate } from "../lib/art";
+
+type Props = {
+  plate: ArtPlate;
+  class?: string;
+};
+
+const { plate, class: className } = Astro.props;
+---
+
+<figure class:list={["slot-card overflow-hidden", className]}>
+  <img src={plate.src} alt={plate.alt} class="w-full h-auto block bg-ink" />
+  {(plate.caption || plate.speculative) && (
+    <figcaption class="px-4 py-3 text-sm text-muted flex flex-wrap gap-x-3 gap-y-1">
+      {plate.caption && <span>{plate.caption}</span>}
+      {plate.speculative && (
+        <span class="font-mono text-[11px] uppercase tracking-[0.16em] text-amber">Speculative — unconfirmed on the page</span>
+      )}
+    </figcaption>
+  )}
+</figure>

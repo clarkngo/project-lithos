@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import DocArticle from "../../components/DocArticle.astro";
 import { loadCollection, loadPage, type DocPage } from "../../lib/docs";
+import { characterPlate } from "../../lib/art";
 
 export function getStaticPaths() {
   return loadCollection("characters").map((page: DocPage) => ({ params: { slug: page.slug } }));
@@ -12,8 +13,9 @@ const page = loadPage("characters", slug!);
 if (!page) {
   throw new Error(`Missing character page: ${slug}`);
 }
+const plate = characterPlate(page.slug);
 ---
 
-<BaseLayout title={page.title} description={page.role ?? page.description}>
-  <DocArticle page={page} />
+<BaseLayout title={page.title} description={page.role ?? page.description} image={plate?.src}>
+  <DocArticle page={page} plate={plate} />
 </BaseLayout>

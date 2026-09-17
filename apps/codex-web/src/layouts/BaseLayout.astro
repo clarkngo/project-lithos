@@ -6,10 +6,12 @@ import { withBase } from "../lib/paths";
 type Props = {
   title: string;
   description?: string;
+  image?: string;
 };
 
-const { title, description = "Field Codex for The Last Lithoi — lore, inscriptions, and the costs of Resonance." } = Astro.props;
+const { title, description = "Field Codex for The Last Lithoi — lore, inscriptions, and the costs of Resonance.", image } = Astro.props;
 const pageTitle = title === "Field Codex" ? "The Last Lithoi — Field Codex" : `${title} — The Last Lithoi`;
+const ogImage = image ? new URL(image, Astro.site).href : undefined;
 ---
 
 <html lang="en">
@@ -17,6 +19,7 @@ const pageTitle = title === "Field Codex" ? "The Last Lithoi — Field Codex" : 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
     <link rel="icon" href={withBase("favicon.svg")} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

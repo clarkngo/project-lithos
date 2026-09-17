@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import CollectionIndex from "../../components/CollectionIndex.astro";
 import { loadCollection } from "../../lib/docs";
+import { thumbsFor } from "../../lib/art";
 
 const pages = loadCollection("magic-system");
 ---
@@ -12,5 +13,6 @@ const pages = loadCollection("magic-system");
     lede="Lock up to three Aethel-Cores into a brass arm conduit. The Shift is a tearing. The bill is caloric debt, hypothermia, and Drift."
     pages={pages}
     basePath="magic-system"
+    thumbs={thumbsFor("magic-system", pages.map((page) => page.slug))}
   />
 </BaseLayout>

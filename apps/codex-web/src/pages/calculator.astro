@@ -1,11 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import InscriptionCalculator from "../components/InscriptionCalculator.astro";
+import ArtFrame from "../components/ArtFrame.astro";
+import { docPlate } from "../lib/art";
+
+const conduit = docPlate("magic-system", "lithosomatic-resonance");
 ---
 
 <BaseLayout
   title="Inscription calculator"
   description="Lock a Form Vector, Affinity Cadence, and optional Mutator Node. See the Shift and its costs."
+  image={conduit?.src}
 >
   <header class="max-w-2xl space-y-3 mb-10">
     <p class="font-mono text-[11px] uppercase tracking-[0.22em] text-brass-dim">Working model</p>
@@ -15,5 +20,8 @@ import InscriptionCalculator from "../components/InscriptionCalculator.astro";
       (Talon, Barrow, Ember, Marsh, Gross, Feral) plus a few extras. None of this is a complete in-world list.
     </p>
   </header>
-  <InscriptionCalculator />
+  <div class="grid gap-10 lg:grid-cols-[minmax(0,0.7fr)_minmax(0,1.3fr)] lg:items-start">
+    {conduit && <ArtFrame plate={conduit} class="lg:sticky lg:top-24" />}
+    <InscriptionCalculator />
+  </div>
 </BaseLayout>
