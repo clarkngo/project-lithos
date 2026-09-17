@@ -36,6 +36,11 @@ const bookTitle = book.subtitle ? `${book.title}: ${book.subtitle}` : book.title
         </>
       )}
     </p>
+    {piece.plateSrc && (
+      <figure class="slot-card overflow-hidden mb-8">
+        <img src={piece.plateSrc} alt="" class="w-full h-auto block bg-ink" />
+      </figure>
+    )}
     <div set:html={piece.html} />
     <NovelPager prev={prev} next={next} />
   </article>

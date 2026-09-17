@@ -48,9 +48,9 @@ npm run validate
 
 ## Manuscript export
 
-Reads `/novel/book-*/act-*/chapter-*.md` (front-matter first, then acts, numeric filenames). Writes EPUB/PDF under `dist/manuscript/` — never into `/novel`.
+Reads `/novel/book-*/act-*/chapter-*.md` (front-matter first, then acts, numeric filenames). Matching plates in `art/chapters/` are inserted at export time; `/novel` is never rewritten. Writes EPUB/PDF under `exports/` (never into `/novel`).
 
-Requires [pandoc](https://pandoc.org/) on `PATH`. PDF also needs a PDF engine (`xelatex`, `lualatex`, `pdflatex`, `wkhtmltopdf`, or `weasyprint`).
+Requires [pandoc](https://pandoc.org/) on `PATH`. PDF also needs a PDF engine (`typst`, `weasyprint`, `xelatex`, `lualatex`, `pdflatex`, or `wkhtmltopdf`).
 
 ```bash
 python3 tools/export-manuscript.py
