@@ -1,0 +1,42 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import NovelPager from "../../../components/NovelPager.astro";
+import { withBase } from "../../../lib/paths";
+import { listBooks, loadBook, loadPiece, neighbors, type NovelBook } from "../../../lib/novel";
+
+export function getStaticPaths() {
+  return listBooks().flatMap((book: NovelBook) =>
+    book.pieces.map((piece) => ({
+      params: { book: book.slug, slug: piece.rest },
+    })),
+  );
+}
+
+const bookSlug = Astro.params.book!;
+const rest = Array.isArray(Astro.params.slug) ? Astro.params.slug.join("/") : Astro.params.slug!;
+const book = loadBook(bookSlug);
+const piece = loadPiece(bookSlug, rest);
+if (!book || !piece) {
+  throw new Error(`Missing novel page: ${bookSlug}/${rest}`);
+}
+const { prev, next } = neighbors(piece);
+const bookTitle = book.subtitle ? `${book.title}: ${book.subtitle}` : book.title;
+---
+
+<BaseLayout title={piece.title} description={piece.description || `A chapter from ${bookTitle}.`}>
+  <article class="prose-codex prose-novel mx-auto">
+    <p class="font-mono text-[11px] uppercase tracking-[0.22em] text-brass-dim mb-4 !mt-0">
+      <a href={withBase("novel/")} class="no-underline hover:text-amber">Novel</a>
+      <span class="text-rule mx-2">/</span>
+      <a href={withBase(`novel/${book.slug}/`)} class="no-underline hover:text-amber">{book.title}</a>
+      {piece.actLabel && (
+        <>
+          <span class="text-rule mx-2">/</span>
+          <span>{piece.actLabel}</span>
+        </>
+      )}
+    </p>
+    <div set:html={piece.html} />
+    <NovelPager prev={prev} next={next} />
+  </article>
+</BaseLayout>

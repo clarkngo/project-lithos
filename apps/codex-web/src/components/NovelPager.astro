@@ -1,0 +1,28 @@
+---
+import { withBase } from "../lib/paths";
+import type { NovelPiece } from "../lib/novel";
+
+type Props = {
+  prev?: NovelPiece;
+  next?: NovelPiece;
+};
+
+const { prev, next } = Astro.props;
+---
+
+<nav class="mt-14 pt-6 border-t border-rule/80 flex flex-col sm:flex-row sm:justify-between gap-4 text-sm">
+  {prev ? (
+    <a href={withBase(`novel/${prev.path}/`)} class="no-underline text-muted hover:text-amber max-w-sm">
+      <span class="font-mono text-[11px] uppercase tracking-[0.16em] text-brass-dim block mb-1">Previous</span>
+      <span class="text-paper">{prev.title}</span>
+    </a>
+  ) : (
+    <span />
+  )}
+  {next && (
+    <a href={withBase(`novel/${next.path}/`)} class="no-underline text-muted hover:text-amber max-w-sm sm:text-right sm:ml-auto">
+      <span class="font-mono text-[11px] uppercase tracking-[0.16em] text-brass-dim block mb-1">Next</span>
+      <span class="text-paper">{next.title}</span>
+    </a>
+  )}
+</nav>

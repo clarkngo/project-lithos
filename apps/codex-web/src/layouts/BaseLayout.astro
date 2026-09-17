@@ -36,7 +36,7 @@ const ogImage = image ? new URL(image, Astro.site).href : undefined;
     </main>
     <footer class="border-t border-rule/80 mt-8">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 py-6 text-sm text-muted flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-        <p>The Last Lithoi — internal Field Codex. Manuscript lives in <code class="text-brass">/novel</code> and is managed separately.</p>
+        <p>The Last Lithoi — Field Codex. Read the manuscript at <a href={withBase("novel/")}>/novel</a>. Lore is sourced from <code class="text-brass">/docs</code>.</p>
         <p class="text-brass-dim">All illustrative Resonance entries are placeholders until confirmed on the page.</p>
       </div>
     </footer>

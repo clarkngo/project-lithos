@@ -25,7 +25,9 @@ project-lithos/
 
 ## Codex site (`apps/codex-web`)
 
-Renders Markdown from `docs/` at build time, and the locked jrpg-v2 plates from `art/` (home key art, cast, map, Resonance). The Inscription calculator imports `tools/resonance-engine/catalog.json` — lore is not duplicated inside the app.
+Renders Markdown from `docs/` and `/novel` at build time, plus the locked jrpg-v2 plates from `art/` (home key art, cast, map, Resonance). The Inscription calculator imports `tools/resonance-engine/catalog.json` — lore is not duplicated inside the app.
+
+Public chapter URLs follow the manuscript folders, e.g. `https://clarkngo.github.io/project-lithos/novel/book-1/act-1/chapter-01/`.
 
 ```bash
 cd apps/codex-web
