@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CollectionIndex from "../../components/CollectionIndex.astro";
+import { loadCollection } from "../../lib/docs";
+
+const pages = loadCollection("factions");
+---
+
+<BaseLayout title="Factions" description="Mining Guild, Warden Enforcers, and the Synod.">
+  <CollectionIndex
+    title="Factions"
+    lede="Three later answers to the same crime. Extraction, enforcement, doctrine — none of them undo the Culling."
+    pages={pages}
+    basePath="factions"
+  />
+</BaseLayout>

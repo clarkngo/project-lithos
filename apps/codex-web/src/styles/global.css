@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Source Serif 4", "Iowan Old Style", Palatino, Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+
+  --color-ink: #14110e;
+  --color-raised: #1e1a16;
+  --color-panel: #261f18;
+  --color-brass: #c4a574;
+  --color-brass-dim: #8a7350;
+  --color-amber: #e09a3e;
+  --color-marrow: #7a3d22;
+  --color-paper: #e8dfd2;
+  --color-muted: #9a8e7e;
+  --color-rule: #c4a574;
+  --color-danger: #c45c45;
+}
+
+html {
+  background: var(--color-ink);
+  color: var(--color-paper);
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background:
+    radial-gradient(1200px 500px at 10% -10%, rgb(224 154 62 / 8%), transparent 50%),
+    radial-gradient(900px 400px at 100% 0%, rgb(122 61 34 / 12%), transparent 45%),
+    var(--color-ink);
+}
+
+::selection {
+  background: rgb(224 154 62 / 35%);
+}
+
+a {
+  color: var(--color-brass);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--color-amber);
+}
+
+.prose-codex {
+  max-width: 65ch;
+}
+
+.prose-codex h1,
+.prose-codex h2,
+.prose-codex h3 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--color-paper);
+}
+
+.prose-codex h1 {
+  font-size: 2.15rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.prose-codex h2 {
+  font-size: 1.35rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.prose-codex h3 {
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose-codex p,
+.prose-codex li {
+  color: rgb(232 223 210 / 88%);
+  line-height: 1.7;
+}
+
+.prose-codex p + p {
+  margin-top: 1rem;
+}
+
+.prose-codex ul,
+.prose-codex ol {
+  margin: 0.85rem 0 0.85rem 1.2rem;
+}
+
+.prose-codex li + li {
+  margin-top: 0.35rem;
+}
+
+.prose-codex table {
+  width: 100%;
+  margin: 1.25rem 0;
+  font-size: 0.92rem;
+  border-collapse: collapse;
+}
+
+.prose-codex th,
+.prose-codex td {
+  border: 1px solid var(--color-rule);
+  padding: 0.5rem 0.7rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose-codex th {
+  background: rgb(196 165 116 / 8%);
+  color: var(--color-brass);
+  font-weight: 500;
+}
+
+.prose-codex code {
+  font-family: var(--font-mono);
+  font-size: 0.86em;
+  color: var(--color-amber);
+}
+
+.prose-codex blockquote {
+  margin: 1.2rem 0;
+  padding: 0.2rem 0 0.2rem 1rem;
+  border-left: 2px solid var(--color-brass-dim);
+  color: var(--color-muted);
+}
+
+.prose-codex details {
+  margin: 1.25rem 0;
+  padding: 0.85rem 1rem;
+  background: rgb(196 165 116 / 6%);
+  border: 1px solid var(--color-rule);
+}
+
+.prose-codex summary {
+  cursor: pointer;
+  color: var(--color-amber);
+  font-weight: 500;
+}
+
+.prose-codex hr {
+  border: 0;
+  border-top: 1px solid var(--color-rule);
+  margin: 1.75rem 0;
+}
+
+.slot-card {
+  background: linear-gradient(180deg, rgb(38 31 24 / 90%), rgb(20 17 14 / 90%));
+  border: 1px solid var(--color-rule);
+  box-shadow: inset 0 1px 0 rgb(196 165 116 / 12%);
+}

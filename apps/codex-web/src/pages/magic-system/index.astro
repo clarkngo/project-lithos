@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CollectionIndex from "../../components/CollectionIndex.astro";
+import { loadCollection } from "../../lib/docs";
+
+const pages = loadCollection("magic-system");
+---
+
+<BaseLayout title="Lithosomatic Resonance" description="The three-slot conduit, inscriptions, and costs.">
+  <CollectionIndex
+    title="Lithosomatic Resonance"
+    lede="Lock up to three Aethel-Cores into a brass arm conduit. The Shift is a tearing. The bill is caloric debt, hypothermia, and Drift."
+    pages={pages}
+    basePath="magic-system"
+  />
+</BaseLayout>

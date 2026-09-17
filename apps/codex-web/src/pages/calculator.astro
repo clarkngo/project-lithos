@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import InscriptionCalculator from "../components/InscriptionCalculator.astro";
+---
+
+<BaseLayout
+  title="Inscription calculator"
+  description="Lock a Form Vector, Affinity Cadence, and optional Mutator Node. See the Shift and its costs."
+>
+  <header class="max-w-2xl space-y-3 mb-10">
+    <p class="font-mono text-[11px] uppercase tracking-[0.22em] text-brass-dim">Working model</p>
+    <h1 class="font-serif text-4xl text-paper">Inscription calculator</h1>
+    <p class="text-muted leading-relaxed">
+      Catalog data is imported from <code>tools/resonance-engine/catalog.json</code>. Named examples from the lexicon
+      (Talon, Barrow, Ember, Marsh, Gross, Feral) plus a few extras. None of this is a complete in-world list.
+    </p>
+  </header>
+  <InscriptionCalculator />
+</BaseLayout>

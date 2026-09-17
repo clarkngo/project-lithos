@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Glossary from "../components/Glossary.astro";
+import { loadGlossary } from "../lib/docs";
+
+const { page, terms } = loadGlossary();
+---
+
+<BaseLayout title="Glossary" description="Terminology lexicon for The Last Lithoi.">
+  <header class="max-w-2xl space-y-3 mb-10">
+    <p class="font-mono text-[11px] uppercase tracking-[0.22em] text-brass-dim">Lexicon</p>
+    <h1 class="font-serif text-4xl text-paper">Glossary</h1>
+    <p class="text-muted leading-relaxed">
+      Terms are sourced from <code>docs/glossary.md</code>. Faction spin belongs on the faction pages; these are the
+      neutral industrial and historical senses.
+    </p>
+  </header>
+  {page && <div class="prose-codex mb-10" set:html={page.html} />}
+  <Glossary terms={terms} />
+</BaseLayout>

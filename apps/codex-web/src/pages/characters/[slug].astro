@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import DocArticle from "../../components/DocArticle.astro";
+import { loadCollection, loadPage, type DocPage } from "../../lib/docs";
+
+export function getStaticPaths() {
+  return loadCollection("characters").map((page: DocPage) => ({ params: { slug: page.slug } }));
+}
+
+const { slug } = Astro.params;
+const page = loadPage("characters", slug!);
+if (!page) {
+  throw new Error(`Missing character page: ${slug}`);
+}
+---
+
+<BaseLayout title={page.title} description={page.role ?? page.description}>
+  <DocArticle page={page} />
+</BaseLayout>

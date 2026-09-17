@@ -1,0 +1,32 @@
+---
+import { withBase } from "../lib/paths";
+import type { DocPage } from "../lib/docs";
+
+type Props = {
+  title: string;
+  lede: string;
+  pages: DocPage[];
+  basePath: string;
+};
+
+const { title, lede, pages, basePath } = Astro.props;
+---
+
+<section class="space-y-8">
+  <header class="max-w-2xl space-y-3">
+    <p class="font-mono text-[11px] uppercase tracking-[0.22em] text-brass-dim">Field Codex</p>
+    <h1 class="font-serif text-4xl text-paper">{title}</h1>
+    <p class="text-muted leading-relaxed">{lede}</p>
+  </header>
+  <ul class="grid gap-4 sm:grid-cols-2">
+    {pages.map((page) => (
+      <li>
+        <a href={withBase(`${basePath}/${page.slug}/`)} class="slot-card p-5 block no-underline hover:border-brass/60">
+          <p class="font-serif text-xl text-paper">{page.title}</p>
+          {page.role && <p class="mt-2 text-sm text-brass">{page.role}</p>}
+          {page.description && <p class="mt-2 text-sm text-muted">{page.description}</p>}
+        </a>
+      </li>
+    ))}
+  </ul>
+</section>

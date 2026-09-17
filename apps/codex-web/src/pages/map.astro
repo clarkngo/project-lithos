@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import MapViewer from "../components/MapViewer.astro";
+---
+
+<BaseLayout title="Map" description="Placeholder survey of mine country, Hollow Cut, the Glass Wastes, and the Vault.">
+  <header class="max-w-2xl space-y-3 mb-8">
+    <p class="font-mono text-[11px] uppercase tracking-[0.22em] text-brass-dim">Survey unfinished</p>
+    <h1 class="font-serif text-4xl text-paper">Map</h1>
+    <p class="text-muted leading-relaxed">
+      A static placeholder. Real tiles belong in <code>public/map-tiles/</code>. Distances, borders, and the Spire's
+      polity are unconfirmed.
+    </p>
+  </header>
+  <MapViewer />
+</BaseLayout>

@@ -1,0 +1,16 @@
+---
+import type { DocPage } from "../lib/docs";
+
+type Props = {
+  page: DocPage;
+};
+
+const { page } = Astro.props;
+---
+
+<article class="prose-codex">
+  {page.role && (
+    <p class="font-mono text-[11px] uppercase tracking-[0.2em] text-brass mb-3">{page.role}</p>
+  )}
+  <div set:html={page.html} />
+</article>

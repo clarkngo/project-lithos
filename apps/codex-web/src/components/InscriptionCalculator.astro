@@ -1,0 +1,116 @@
+---
+import { catalog, buildInscription, type CostBand } from "../lib/inscription";
+
+const initial = buildInscription("talon", "ember", "feral");
+if (!initial) {
+  throw new Error("Failed to build default inscription from catalog.json");
+}
+
+const noneValue = "";
+
+const bandClass: Record<CostBand, string> = {
+  low: "text-brass",
+  moderate: "text-amber",
+  severe: "text-danger",
+  critical: "text-danger",
+};
+---
+
+<div id="inscription-calculator" class="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)]">
+  <form class="slot-card p-5 sm:p-6 space-y-5" data-calculator-form>
+    <p class="font-mono text-[11px] uppercase tracking-[0.2em] text-brass-dim">Brass arm conduit</p>
+    <h2 class="font-serif text-2xl text-paper">Inscription calculator</h2>
+    <p class="text-sm text-muted">
+      Lock a Form Vector and Affinity Cadence. A Mutator Node is optional. Costs are a working model of the catalog in
+      <code>tools/resonance-engine</code> — illustrative, not a complete in-world list.
+    </p>
+
+    <label class="block space-y-2">
+      <span class="font-mono text-[11px] uppercase tracking-[0.18em] text-brass">Slot 1 — Form Vector</span>
+      <select name="form" class="w-full bg-ink border border-rule text-paper px-3 py-2 font-serif">
+        {catalog.formVectors.map((item) => (
+          <option value={item.id} selected={item.id === "talon"}>{item.name}</option>
+        ))}
+      </select>
+    </label>
+
+    <label class="block space-y-2">
+      <span class="font-mono text-[11px] uppercase tracking-[0.18em] text-brass">Slot 2 — Affinity Cadence</span>
+      <select name="cadence" class="w-full bg-ink border border-rule text-paper px-3 py-2 font-serif">
+        {catalog.affinityCadences.map((item) => (
+          <option value={item.id} selected={item.id === "ember"}>{item.name}</option>
+        ))}
+      </select>
+    </label>
+
+    <label class="block space-y-2">
+      <span class="font-mono text-[11px] uppercase tracking-[0.18em] text-brass">Slot 3 — Mutator Node</span>
+      <select name="node" class="w-full bg-ink border border-rule text-paper px-3 py-2 font-serif">
+        <option value={noneValue} selected={false}>None (optional)</option>
+        {catalog.mutatorNodes.map((item) => (
+          <option value={item.id} selected={item.id === "feral"}>{item.name}</option>
+        ))}
+      </select>
+    </label>
+  </form>
+
+  <article class="slot-card p-5 sm:p-6 space-y-4" data-report>
+    {initial.illustrative && (
+      <p class="font-mono text-[11px] uppercase tracking-[0.18em] text-amber">Illustrative catalog — confirm against manuscript</p>
+    )}
+    <h3 class="font-serif text-2xl text-paper" data-title>{initial.title}</h3>
+    <p class="text-paper/85 leading-relaxed" data-description>{initial.description}</p>
+    <ul class="space-y-3 text-sm">
+      <li>
+        <span class:list={["font-mono uppercase tracking-wider text-[11px]", bandClass[initial.costs.caloric.band]]}>Caloric debt</span>
+        <p class="text-muted mt-1" data-caloric>{initial.costs.caloric.summary}</p>
+      </li>
+      <li>
+        <span class="font-mono uppercase tracking-wider text-[11px] text-brass">Tissue tearing</span>
+        <p class="text-muted mt-1" data-tearing>{initial.costs.tearing.summary}</p>
+      </li>
+      <li>
+        <span class:list={["font-mono uppercase tracking-wider text-[11px]", bandClass[initial.costs.hypothermia.band]]}>Hypothermia</span>
+        <p class="text-muted mt-1" data-hypothermia>{initial.costs.hypothermia.summary}</p>
+      </li>
+      <li>
+        <span class:list={["font-mono uppercase tracking-wider text-[11px]", bandClass[initial.costs.drift.band]]}>Atavistic Drift</span>
+        <p class="text-muted mt-1" data-drift>{initial.costs.drift.summary}</p>
+      </li>
+    </ul>
+  </article>
+</div>
+
+<script>
+  import { buildInscription } from "../lib/inscription";
+
+  const root = document.getElementById("inscription-calculator");
+  if (root) {
+    const form = root.querySelector<HTMLFormElement>("[data-calculator-form]");
+    const title = root.querySelector("[data-title]");
+    const description = root.querySelector("[data-description]");
+    const caloric = root.querySelector("[data-caloric]");
+    const tearing = root.querySelector("[data-tearing]");
+    const hypothermia = root.querySelector("[data-hypothermia]");
+    const drift = root.querySelector("[data-drift]");
+
+    const paint = () => {
+      if (!form) return;
+      const data = new FormData(form);
+      const report = buildInscription(
+        String(data.get("form") ?? ""),
+        String(data.get("cadence") ?? ""),
+        String(data.get("node") || "") || null,
+      );
+      if (!report) return;
+      if (title) title.textContent = report.title;
+      if (description) description.textContent = report.description;
+      if (caloric) caloric.textContent = report.costs.caloric.summary;
+      if (tearing) tearing.textContent = report.costs.tearing.summary;
+      if (hypothermia) hypothermia.textContent = report.costs.hypothermia.summary;
+      if (drift) drift.textContent = report.costs.drift.summary;
+    };
+
+    form?.addEventListener("change", paint);
+  }
+</script>
