@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://project-lithos.local/schemas/affinity-cadence.json",
+  "title": "Affinity Cadence",
+  "description": "Second conduit slot — elemental breath or temperament layered onto the Form.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "slot",
+    "summary",
+    "elementalBreath",
+    "thermalProfile",
+    "caloricWeight",
+    "driftWeight",
+    "hypothermiaWeight",
+    "illustrative"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slot": {
+      "const": "affinity-cadence"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "elementalBreath": {
+      "type": "string",
+      "minLength": 1
+    },
+    "thermalProfile": {
+      "type": "string",
+      "minLength": 1
+    },
+    "caloricWeight": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "driftWeight": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "hypothermiaWeight": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "illustrative": {
+      "type": "boolean"
+    },
+    "attested": {
+      "type": "boolean",
+      "description": "True when the name appears in the project lexicon."
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

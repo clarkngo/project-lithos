@@ -1,0 +1,12 @@
+{
+  "name": "resonance-engine",
+  "private": true,
+  "type": "module",
+  "description": "JSON Schema catalog and validation for Lithosomatic Resonance inscriptions.",
+  "scripts": {
+    "validate": "node validate.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1"
+  }
+}

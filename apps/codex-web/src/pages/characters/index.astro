@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CollectionIndex from "../../components/CollectionIndex.astro";
+import { loadCollection } from "../../lib/docs";
+import { thumbsFor } from "../../lib/art";
+
+const pages = loadCollection("characters");
+---
+
+<BaseLayout title="Cast" description="Principal characters of The Last Lithoi.">
+  <CollectionIndex
+    title="Cast"
+    lede="Role tags are canonical. Physical detail is taken from the page where it exists; everything else is flagged as unconfirmed."
+    pages={pages}
+    basePath="characters"
+    thumbs={thumbsFor("characters", pages.map((page) => page.slug))}
+  />
+</BaseLayout>

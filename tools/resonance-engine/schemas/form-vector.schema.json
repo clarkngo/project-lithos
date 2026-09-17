@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://project-lithos.local/schemas/form-vector.json",
+  "title": "Form Vector",
+  "description": "First conduit slot — skeletal scaffold the body reshapes toward.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "slot",
+    "summary",
+    "skeletalScaffold",
+    "tissueStress",
+    "caloricWeight",
+    "driftWeight",
+    "illustrative"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slot": {
+      "const": "form-vector"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "skeletalScaffold": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tissueStress": {
+      "type": "string",
+      "minLength": 1
+    },
+    "caloricWeight": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "driftWeight": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "illustrative": {
+      "type": "boolean",
+      "description": "True when this entry is a working example, not a confirmed in-world catalog item."
+    },
+    "attested": {
+      "type": "boolean",
+      "description": "True when the name appears in the project lexicon (style guide), even if physiology is still illustrative."
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

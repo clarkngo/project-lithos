@@ -1,0 +1,14 @@
+{
+  "missing-cadence.json": {
+    "schema": "inscription",
+    "expect": "schema-fail"
+  },
+  "unknown-vector.json": {
+    "schema": "inscription",
+    "expect": "ref-fail"
+  },
+  "wrong-slot.json": {
+    "schema": "form-vector",
+    "expect": "schema-fail"
+  }
+}

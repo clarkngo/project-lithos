@@ -1,0 +1,26 @@
+---
+import type { DocPage } from "../lib/docs";
+import type { ArtPlate } from "../lib/art";
+import ArtFrame from "./ArtFrame.astro";
+
+type Props = {
+  page: DocPage;
+  plate?: ArtPlate;
+};
+
+const { page, plate } = Astro.props;
+---
+
+<div class:list={["gap-10", plate && "lg:grid lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.2fr)] lg:items-start"]}>
+  {plate && (
+    <div class="mb-8 lg:mb-0 lg:sticky lg:top-24">
+      <ArtFrame plate={plate} />
+    </div>
+  )}
+  <article class="prose-codex">
+    {page.role && (
+      <p class="font-mono text-[11px] uppercase tracking-[0.2em] text-brass mb-3">{page.role}</p>
+    )}
+    <div set:html={page.html} />
+  </article>
+</div>

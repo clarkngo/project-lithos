@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CollectionIndex from "../../components/CollectionIndex.astro";
+import { loadCollection } from "../../lib/docs";
+import { thumbsFor } from "../../lib/art";
+
+const pages = loadCollection("timeline");
+---
+
+<BaseLayout title="Timeline" description="Pre-Culling, the Culling, and post-war reconstruction.">
+  <CollectionIndex
+    title="Timeline"
+    lede="High-level beats only. The present sits generations after the Culling; its guilt structures every faction."
+    pages={pages}
+    basePath="timeline"
+    thumbs={thumbsFor("timeline", pages.map((page) => page.slug))}
+  />
+</BaseLayout>

@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+dist/
+.astro/
+*.log
+.venv/
+__pycache__/
+*.pyc
+.python-version
+.idea/
+.vscode/

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://project-lithos.local/schemas/inscription.json",
+  "title": "Inscription",
+  "description": "A locked triad: Form Vector + Affinity Cadence + optional Mutator Node.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["formVectorId", "affinityCadenceId"],
+  "properties": {
+    "formVectorId": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "affinityCadenceId": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "mutatorNodeId": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$"
+        }
+      ]
+    }
+  }
+}

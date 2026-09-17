@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://project-lithos.local/schemas/catalog.json",
+  "title": "Resonance catalog",
+  "description": "Shared working catalog consumed by tools/resonance-engine and apps/codex-web.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["formVectors", "affinityCadences", "mutatorNodes"],
+  "properties": {
+    "formVectors": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "https://project-lithos.local/schemas/form-vector.json" }
+    },
+    "affinityCadences": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "https://project-lithos.local/schemas/affinity-cadence.json" }
+    },
+    "mutatorNodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "https://project-lithos.local/schemas/mutator-node.json" }
+    }
+  }
+}

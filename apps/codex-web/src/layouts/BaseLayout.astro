@@ -1,0 +1,44 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import { withBase } from "../lib/paths";
+
+type Props = {
+  title: string;
+  description?: string;
+  image?: string;
+};
+
+const { title, description = "Field Codex for The Last Lithoi — lore, inscriptions, and the costs of Resonance.", image } = Astro.props;
+const pageTitle = title === "Field Codex" ? "The Last Lithoi — Field Codex" : `${title} — The Last Lithoi`;
+const ogImage = image ? new URL(image, Astro.site).href : undefined;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <link rel="icon" href={withBase("favicon.svg")} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>{pageTitle}</title>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <Header />
+    <main class="flex-1 w-full max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
+      <slot />
+    </main>
+    <footer class="border-t border-rule/80 mt-8">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-6 text-sm text-muted flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+        <p>The Last Lithoi — internal Field Codex. Manuscript lives in <code class="text-brass">/novel</code> and is managed separately.</p>
+        <p class="text-brass-dim">All illustrative Resonance entries are placeholders until confirmed on the page.</p>
+      </div>
+    </footer>
+  </body>
+</html>

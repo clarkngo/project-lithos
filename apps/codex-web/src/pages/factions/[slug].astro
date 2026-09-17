@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import DocArticle from "../../components/DocArticle.astro";
+import { loadCollection, loadPage, type DocPage } from "../../lib/docs";
+import { docPlate } from "../../lib/art";
+
+export function getStaticPaths() {
+  return loadCollection("factions").map((page: DocPage) => ({ params: { slug: page.slug } }));
+}
+
+const { slug } = Astro.params;
+const page = loadPage("factions", slug!);
+if (!page) {
+  throw new Error(`Missing faction page: ${slug}`);
+}
+const plate = docPlate("factions", page.slug);
+---
+
+<BaseLayout title={page.title} description={page.role ?? page.description} image={plate?.src}>
+  <DocArticle page={page} plate={plate} />
+</BaseLayout>

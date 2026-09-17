@@ -1,0 +1,45 @@
+---
+import { withBase } from "../lib/paths";
+import type { DocPage } from "../lib/docs";
+import type { ArtPlate } from "../lib/art";
+
+type Props = {
+  title: string;
+  lede: string;
+  pages: DocPage[];
+  basePath: string;
+  thumbs?: Record<string, ArtPlate | undefined>;
+};
+
+const { title, lede, pages, basePath, thumbs } = Astro.props;
+---
+
+<section class="space-y-8">
+  <header class="max-w-2xl space-y-3">
+    <p class="font-mono text-[11px] uppercase tracking-[0.22em] text-brass-dim">Field Codex</p>
+    <h1 class="font-serif text-4xl text-paper">{title}</h1>
+    <p class="text-muted leading-relaxed">{lede}</p>
+  </header>
+  <ul class="grid gap-4 sm:grid-cols-2">
+    {pages.map((page) => {
+      const thumb = thumbs?.[page.slug];
+      return (
+        <li>
+          <a href={withBase(`${basePath}/${page.slug}/`)} class="slot-card overflow-hidden block no-underline hover:border-brass/60">
+            {thumb && (
+              <img src={thumb.src} alt="" class="w-full h-44 object-cover object-top bg-ink" />
+            )}
+            <div class="p-5">
+              <p class="font-serif text-xl text-paper">{page.title}</p>
+              {page.role && <p class="mt-2 text-sm text-brass">{page.role}</p>}
+              {page.description && <p class="mt-2 text-sm text-muted">{page.description}</p>}
+              {thumb?.speculative && (
+                <p class="mt-2 font-mono text-[11px] uppercase tracking-[0.16em] text-amber">Speculative likeness</p>
+              )}
+            </div>
+          </a>
+        </li>
+      );
+    })}
+  </ul>
+</section>

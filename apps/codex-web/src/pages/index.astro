@@ -1,0 +1,52 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ArtFrame from "../components/ArtFrame.astro";
+import { withBase } from "../lib/paths";
+import { keyArt } from "../lib/art";
+---
+
+<BaseLayout title="Field Codex" image={keyArt?.src}>
+  <section class="grid gap-12 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] items-start">
+    <div class="space-y-6 max-w-2xl">
+      <p class="font-mono text-[11px] uppercase tracking-[0.22em] text-brass-dim">Companion site · sourced from /docs</p>
+      <h1 class="font-serif text-4xl sm:text-5xl leading-[1.1] text-paper">
+        A brass conduit, three slots, and a debt the body keeps.
+      </h1>
+      <p class="text-lg text-muted leading-relaxed">
+        The Lithoi are gone. What they left in the deep strata — vitrified marrow, cut into Aethel-Cores — is the fuel of
+        every Shift. This Codex is the working bible for that world: cast, factions, Resonance, and the costs that make a
+        transformation something other than a costume change.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <a href={withBase("calculator/")} class="px-4 py-2 bg-brass text-ink no-underline font-medium hover:bg-amber">Open the inscription calculator</a>
+        <a href={withBase("glossary/")} class="px-4 py-2 border border-rule text-paper no-underline hover:border-brass">Read the lexicon</a>
+      </div>
+      <aside class="slot-card p-5 space-y-3 text-sm">
+        <p class="font-mono text-[11px] uppercase tracking-[0.18em] text-brass">Three-slot conduit</p>
+        <ol class="space-y-3 text-muted">
+          <li><span class="text-paper">Form Vector</span> — skeletal scaffold (Talon, Barrow…)</li>
+          <li><span class="text-paper">Affinity Cadence</span> — elemental breath (Ember, Marsh…)</li>
+          <li><span class="text-paper">Mutator Node</span> — optional scale or distortion (Gross, Feral…)</li>
+        </ol>
+        <p class="text-muted">Aftermath: caloric debt, tissue tearing, violent hypothermia, Atavistic Drift.</p>
+      </aside>
+    </div>
+    {keyArt && <ArtFrame plate={keyArt} class="lg:sticky lg:top-24" />}
+  </section>
+
+  <section class="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    {[
+      { href: "characters/", title: "Cast", copy: "Caelen, Varrick, Rook, Malakar, Seraphina." },
+      { href: "factions/", title: "Factions", copy: "Guild extraction, Warden procedure, Synod doctrine." },
+      { href: "magic-system/", title: "Resonance", copy: "How a Shift is locked, and what it costs." },
+      { href: "timeline/", title: "Timeline", copy: "Pre-Culling, the Culling, the scar that followed." },
+      { href: "map/", title: "Map", copy: "Mine country to the Glass Wastes — painted survey." },
+      { href: "glossary/", title: "Glossary", copy: "The terminology lexicon, searchable." },
+    ].map((card) => (
+      <a href={withBase(card.href)} class="slot-card p-5 block no-underline hover:border-brass/60">
+        <h2 class="font-serif text-xl text-paper">{card.title}</h2>
+        <p class="mt-2 text-sm text-muted">{card.copy}</p>
+      </a>
+    ))}
+  </section>
+</BaseLayout>
