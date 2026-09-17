@@ -57,6 +57,4 @@ python3 tools/export-manuscript.py --book 1
 
 ## License
 
-License is not set yet. Because this repo holds original creative IP intended for possible traditional or self-publishing, it should **not** default to an open-source license.
-
-Until a `LICENSE` file is added, treat the work as all rights reserved.
+[All rights reserved](LICENSE). The manuscript, worldbuilding bible, Codex site, and tools are proprietary original work. This is not an open-source license.
