@@ -67,6 +67,10 @@ The Lithoi world is felt through the body before it is understood through the mi
 | **The tethering rite** | A Lithoi-era methodology, sealed in the Synod's reliquary, for drawing a drifting mind back from the edge of losing itself — not a cure, but a treatment the Synod has never offered to families who lost someone to Drift. |
 | **Custodian** | A Synod rank/title, not a single named office — Synod representatives speak in the order's characteristic question-shaped cadence (see §3) regardless of which individual holds the title. |
 | **Director** | A senior Mining Guild rank, above ordinary survey factors and crew bosses — authorized to commit expedition-scale resources and to speak for the Guild's ledger directly. |
+| **The finding** | Book Three's provisional ruling of the Hall of Canon: no register of persons except in public; no containment without a hearing and a name; houses of treatment funded from the hall's own treasury; no practice of the rite a crime. Adopted 22–19. |
+| **House of treatment** | A publicly funded, publicly rolled refuge where the rite is practiced and taught openly, established under the finding. The first is Corwin's. |
+| **Enforcement housing** | A licensed conduit issued to Warden Captains of containment for the field. Ten years of wear can drift its wearer, which the order never knew until Captain Roshe. |
+| **The roll** | The public register on the plaza board before the Hall of Canon. It names no one who has not chosen to be named. |
 
 ## 6. Naming Conventions
 

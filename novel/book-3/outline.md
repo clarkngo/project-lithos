@@ -2,7 +2,7 @@
 
 **Structure:** Two acts, continuing directly from Book Two's close. Where Book One asked what Caelen would spend to keep his own autonomy, and Book Two asked what it costs to let that choice belong to other people too, Book Three asks the hardest version of the question yet: what happens once the choice stops being a fringe settlement's private business and becomes something the territory's actual seats of power have to answer for, publicly, on the record. See [style-guide.md](../style-guide.md) for voice and terminology; see [book-1/outline.md](../book-1/outline.md) and [book-2/outline.md](../book-2/outline.md) for everything this volume assumes as read.
 
-**Time frame:** Opens roughly four months after Book Two's close — deliberately shorter than the gap between Books One and Two, because this book's inciting pressure doesn't need eight quiet months to build. It arrives on its own schedule, from the Spire, whether the found family is ready for it or not.
+**Time frame:** Opens roughly ten months after Book Two's close, in the autumn, and runs through the following spring. (The first draft of this outline said four months; drafting showed the Spire hearing needed to fall in winter, so the gap was lengthened and every duration in the manuscript was reconciled to it.) The pressure arrives on its own schedule, from the Spire, whether the found family is ready for it or not.
 
 **Cast additions:**
 - **Chairman Reth** — the Mining Guild's ruling board, embodied in one patient, considerably less cautious voice than Kell's own. Reads Kell's whole modest, careful approach to the second seal as a failure of nerve rather than a failure of method, and has come to the Spire to correct that failure at the source: doctrine itself, not any single door.
@@ -97,3 +97,13 @@
 - **The found family's roster keeps changing shape**: Ansel, then Varrick, then Fenn — each book has spent someone the family loved. Book Three should resist repeating that exact structure a third time in the same place in the story (hence Fenn's loss arriving early, quietly, rather than at the climax) — the pattern itself needs to be visible enough that breaking its rhythm reads as deliberate, not exhausted.
 - **Seraphina's House as the mirror to Caelen's mine**: both began this series orphaned from the place that made them, by violence in his case and by a comfortable, respectable silence in hers. Book Three is where her origin gets the reckoning his got across Book One's entire length.
 - **The Synod's internal argument, finally forced into the open**: seeded in Book One (the eldest Custodian's doubt), sharpened in Book Two (Voss vs. that same doubt), and due, in Book Three, for its first real public airing rather than another private, contained confrontation.
+
+---
+
+## As Drafted — Deviations From This Outline
+
+- **Chapter 03:** Reth is delivered secondhand through Kell, now demoted to "Auditor of Deferred Accounts," who is neither ally nor enemy but wants to do "one thing that was not a ledger." She returns twice: testifying against her own Board in Act Two, Chapter 8, and, after her dismissal, offering to audit the hall's houses of treatment in Act Two, Chapter 10.
+- **Act Two, Chapter 9:** The climax turns on Captain Roshe, who signed the Greyfen containment report and is discovered to be drifting on an issued enforcement housing. Caelen anchors him in front of nine hundred witnesses, which is the "permanent public visibility" cost. The vote is 22 to 19 for Maren's provisional finding.
+- **Added characters:** Ilse and Odo (the camp's two archivists), Lisbet (Corwin's sister), Halloran (House Ilvane's steward), Petra Halsey (the Long Reach clerk), and Captain Roshe.
+- **Act Two, Chapter 12:** Breaks the ridge pattern as planned, and closes on a letter from the Salt Coast: a second child found sealed in amber. That is the hook for Book Four.
+
