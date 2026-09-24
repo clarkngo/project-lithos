@@ -27,6 +27,7 @@ const cover = bookCover(book.number);
       </p>
       <h1 class="font-serif text-4xl text-paper">{book.title}</h1>
       {book.subtitle && <p class="text-lg text-brass">{book.subtitle}</p>}
+      <p class="text-muted">by Clark Ngo</p>
       <p>
         <a href={withBase(`novel/${book.start.path}/`)} class="btn-solid">
           Read online

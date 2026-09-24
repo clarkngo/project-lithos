@@ -35,6 +35,7 @@ ART_COVERS = ROOT / "art" / "covers"
 SERIES_POSTER = ROOT / "art" / "characters" / "key-art-cast.png"
 DEFAULT_OUTDIR = ROOT / "exports"
 TITLE = "The Last Lithoi"
+AUTHOR = "Clark Ngo"
 
 SPLIT_DIGITS = re.compile(r"(\d+)")
 HEADING = re.compile(r"^# .+$", re.M)
@@ -171,13 +172,16 @@ def output_stem(book: int | None) -> str:
 
 
 def cover_image(book: int | None) -> Path | None:
+    """Prefer authored volume covers (title art + Clark Ngo) for EPUB/PDF."""
     if book is not None:
-        candidate = ART_COVERS / f"book-{book}.png"
-        if candidate.is_file():
-            return candidate
-    first = ART_COVERS / "book-1.png"
-    if first.is_file():
-        return first
+        for name in (f"book-{book}-authored.png", f"book-{book}.png"):
+            candidate = ART_COVERS / name
+            if candidate.is_file():
+                return candidate
+    for name in ("book-1-authored.png", "book-1.png"):
+        first = ART_COVERS / name
+        if first.is_file():
+            return first
     if SERIES_POSTER.is_file():
         return SERIES_POSTER
     return None
@@ -222,10 +226,22 @@ def prepend_cover_pdf(cover_png: Path, body_pdf: Path, work: Path) -> None:
     cover_pdf = work / "cover.pdf"
     compile_cover_pdf(cover_png, cover_pdf, work, width_pt, height_pt)
 
+    body = PdfReader(str(body_pdf))
     writer = PdfWriter()
-    for path in (cover_pdf, body_pdf):
-        for page in PdfReader(str(path)).pages:
-            writer.add_page(page)
+    for page in PdfReader(str(cover_pdf)).pages:
+        writer.add_page(page)
+    for page in body.pages:
+        writer.add_page(page)
+    # Cover merge via pypdf drops pandoc/Typst metadata; restore author + title.
+    meta = body.metadata or {}
+    writer.add_metadata(
+        {
+            "/Author": str(meta.get("/Author") or AUTHOR),
+            "/Title": str(meta.get("/Title") or ""),
+            "/Creator": str(meta.get("/Creator") or "pandoc"),
+            "/Producer": "project-lithos export-manuscript",
+        }
+    )
     stamped = work / "stamped.pdf"
     with stamped.open("wb") as handle:
         writer.write(handle)
@@ -277,11 +293,18 @@ def main() -> None:
         marker = " [art]" if art_for(source) else ""
         print(f"  {source.relative_to(ROOT)}{marker}")
 
-    metadata = ["--metadata", f"title={TITLE}", "--toc"]
+    metadata = [
+        "--metadata",
+        f"title={TITLE}",
+        "--metadata",
+        f"author={AUTHOR}",
+        "--toc",
+    ]
     cover = cover_image(args.book)
     if cover:
         metadata.extend(["--epub-cover-image", str(cover)])
         print(f"Cover: {cover.relative_to(ROOT)}")
+    print(f"Author: {AUTHOR}")
 
     with tempfile.TemporaryDirectory(prefix="lithos-export-") as tmp:
         staging = Path(tmp)
@@ -319,6 +342,8 @@ def main() -> None:
                 [
                     "--metadata",
                     f"title={TITLE}",
+                    "--metadata",
+                    f"author={AUTHOR}",
                     "--toc",
                     f"--pdf-engine={engine}",
                     f"--resource-path={resource_path}",

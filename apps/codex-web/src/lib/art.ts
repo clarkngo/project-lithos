@@ -153,18 +153,18 @@ export const keyArt = plate(
 
 const BOOK_COVERS: Record<number, { file: string; alt: string; caption: string }> = {
   1: {
-    file: "covers/book-1.png",
-    alt: "Book One cover: a deep-strata mine gallery and a child-sized pocket in amber-dark marrow-glass.",
+    file: "covers/book-1-authored.png",
+    alt: "Book One cover by Clark Ngo: a deep-strata mine gallery and a child-sized pocket in amber-dark marrow-glass.",
     caption: "Book One",
   },
   2: {
-    file: "covers/book-2.png",
-    alt: "Book Two cover: a Wastes camp in a stone ring beneath a second sealed cliff door.",
+    file: "covers/book-2-authored.png",
+    alt: "Book Two cover by Clark Ngo: a Wastes camp in a stone ring beneath a second sealed cliff door.",
     caption: "Book Two — The Tethering",
   },
   3: {
-    file: "covers/book-3.png",
-    alt: "Book Three cover: the Synod Central Hall seen from a gallery, a lectern on the floor.",
+    file: "covers/book-3-authored.png",
+    alt: "Book Three cover by Clark Ngo: the Synod Central Hall seen from a gallery, a lectern on the floor.",
     caption: "Book Three — The Spire's Reckoning",
   },
 };
