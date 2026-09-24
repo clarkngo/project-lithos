@@ -1,10 +1,12 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import CollectionIndex from "../../components/CollectionIndex.astro";
+import ArtFrame from "../../components/ArtFrame.astro";
 import { loadCollection } from "../../lib/docs";
-import { thumbsFor } from "../../lib/art";
+import { companionPlates, thumbsFor } from "../../lib/art";
 
 const pages = loadCollection("characters");
+const extras = companionPlates();
 ---
 
 <BaseLayout title="Cast" description="Principal characters of The Last Lithoi.">
@@ -15,4 +17,19 @@ const pages = loadCollection("characters");
     basePath="characters"
     thumbs={thumbsFor("characters", pages.map((page) => page.slug))}
   />
+  {extras.length > 0 && (
+    <section class="mt-12 space-y-4">
+      <h2 class="font-serif text-2xl text-paper">Later volumes</h2>
+      <p class="text-sm text-muted max-w-2xl">
+        Companion portraits for Books Two and Three. They live in <code>art/characters/</code> until a dossier exists.
+      </p>
+      <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {extras.map((plate) => (
+          <li>
+            <ArtFrame plate={plate} />
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
 </BaseLayout>

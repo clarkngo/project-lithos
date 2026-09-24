@@ -47,6 +47,34 @@ a:hover {
   color: var(--color-amber);
 }
 
+/* Solid CTAs: default `a` color is brass, which vanishes on bg-brass. */
+a.btn-solid {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--color-brass);
+  color: var(--color-ink);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a.btn-solid:hover {
+  background: var(--color-amber);
+  color: var(--color-ink);
+}
+
+a.btn-ghost {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-rule);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+
+a.btn-ghost:hover {
+  border-color: var(--color-brass);
+  color: var(--color-amber);
+}
+
 .prose-codex {
   max-width: 65ch;
 }

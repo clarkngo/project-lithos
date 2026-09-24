@@ -18,8 +18,8 @@ import { keyArt } from "../lib/art";
         transformation something other than a costume change.
       </p>
       <div class="flex flex-wrap gap-3">
-        <a href={withBase("novel/")} class="px-4 py-2 bg-brass text-ink no-underline font-medium hover:bg-amber">Read the novel</a>
-        <a href={withBase("calculator/")} class="px-4 py-2 border border-rule text-paper no-underline hover:border-brass">Inscription calculator</a>
+        <a href={withBase("novel/")} class="btn-solid">Read online</a>
+        <a href={withBase("calculator/")} class="btn-ghost">Inscription calculator</a>
       </div>
       <aside class="slot-card p-5 space-y-3 text-sm">
         <p class="font-mono text-[11px] uppercase tracking-[0.18em] text-brass">Three-slot conduit</p>
@@ -36,7 +36,7 @@ import { keyArt } from "../lib/art";
 
   <section class="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {[
-      { href: "novel/", title: "The novel", copy: "Book One and Book Two, chapter by chapter." },
+      { href: "novel/", title: "The novel", copy: "Books One–Three, chapter by chapter." },
       { href: "characters/", title: "Cast", copy: "Caelen, Varrick, Rook, Malakar, Seraphina." },
       { href: "factions/", title: "Factions", copy: "Guild extraction, Warden procedure, Synod doctrine." },
       { href: "magic-system/", title: "Resonance", copy: "How a Shift is locked, and what it costs." },

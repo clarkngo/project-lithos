@@ -1,8 +1,9 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import ArtFrame from "../../../components/ArtFrame.astro";
 import { withBase } from "../../../lib/paths";
 import { groupByAct, listBooks, loadBook, type NovelBook } from "../../../lib/novel";
-import { keyArt } from "../../../lib/art";
+import { bookCover, keyArt } from "../../../lib/art";
 
 export function getStaticPaths() {
   return listBooks().map((book: NovelBook) => ({ params: { book: book.slug } }));
@@ -14,20 +15,24 @@ if (!book) {
 }
 const groups = groupByAct(book);
 const pageTitle = book.subtitle ? `${book.title}: ${book.subtitle}` : book.title;
+const cover = bookCover(book.number);
 ---
 
-<BaseLayout title={pageTitle} description={`Read ${pageTitle}.`} image={keyArt?.src}>
-  <header class="max-w-2xl space-y-3 mb-10">
-    <p class="font-mono text-[11px] uppercase tracking-[0.22em] text-brass-dim">
-      <a href={withBase("novel/")} class="no-underline hover:text-amber">Manuscript</a>
-    </p>
-    <h1 class="font-serif text-4xl text-paper">{book.title}</h1>
-    {book.subtitle && <p class="text-lg text-brass">{book.subtitle}</p>}
-    <p>
-      <a href={withBase(`novel/${book.start.path}/`)} class="px-4 py-2 bg-brass text-ink no-underline font-medium hover:bg-amber inline-block">
-        Start reading
-      </a>
-    </p>
+<BaseLayout title={pageTitle} description={`Read ${pageTitle}.`} image={cover?.src ?? keyArt?.src}>
+  <header class="grid gap-8 lg:grid-cols-[minmax(0,16rem)_minmax(0,1fr)] items-start mb-10">
+    {cover && <ArtFrame plate={cover} />}
+    <div class="space-y-3 max-w-2xl">
+      <p class="font-mono text-[11px] uppercase tracking-[0.22em] text-brass-dim">
+        <a href={withBase("novel/")} class="no-underline hover:text-amber">Manuscript</a>
+      </p>
+      <h1 class="font-serif text-4xl text-paper">{book.title}</h1>
+      {book.subtitle && <p class="text-lg text-brass">{book.subtitle}</p>}
+      <p>
+        <a href={withBase(`novel/${book.start.path}/`)} class="btn-solid">
+          Read online
+        </a>
+      </p>
+    </div>
   </header>
 
   <div class="grid gap-10 lg:grid-cols-2">
