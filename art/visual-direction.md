@@ -4,7 +4,7 @@ Working art bible for *The Last Lithoi*. Confirm against the manuscript when pro
 
 ## Illustration style (locked)
 
-**Late-90s JRPG box art / painted-cel** — the `explorations/jrpg-v2/` pass. That language is the Codex's main art: current keepers in `world/`, `characters/`, `lithoi/`, `artifacts/`, and `resonance/`.
+**Late-90s JRPG box art / painted-cel** — the `explorations/jrpg-v2/` pass. That language is the Codex's main art: current keepers in `world/`, `characters/`, `covers/`, `lithoi/`, `artifacts/`, and `resonance/`.
 
 Take from that pass:
 
@@ -12,7 +12,7 @@ Take from that pass:
 - Saturated but earthy (charcoal, brass, dirty cloth, amber-dark glass)
 - Thumbnail-clear silhouettes; character-forward
 - Original designs only — no publisher marks, no fake studio logos, no dated “coming soon” paste-on type
-- Character portraits have **no overlay text**. Captions belong in the Codex. If a portrait has a stamp, regenerate it. Key-art poster title is the only exception.
+- Character portraits have **no overlay text**. Captions belong in the Codex. If a portrait has a stamp, regenerate it. Poster titles are allowed on the series key-art and on volume covers in `art/covers/`. Volume covers are **places** (the seam, the camp and second seal, the Central Hall), not party lineups. The series key-art stays the Codex home poster.
 
 Do **not** take from that pass (or from Breath of Fire): extra blonde party members, hero swords, green/blue spiky hair, crystal-goddess Lithoi, majestic western dragons, floating castle-temples.
 
@@ -64,9 +64,10 @@ The Lithoi world is felt through the body before it is understood through the mi
 ## Character locks (from the page)
 
 - **Caelen (Act One, child):** nine, just unsealed from amber-dark glass; joints unused to length; thin shift; palms that knit too warm; eyes that throw lantern-light back like a cat’s; thinning wrists, grey lips. Hair is **not** a blue or green hero spike — mine-dusted, dark, uneven.
+- **Caelen (Act Two onward):** the same person grown — taller than Varrick, lean Wastes runner, dusty dark hair, cat-eye lantern catchlights. Empty brass housing on the **left** forearm, three empty slots, never held a core. Unarmed.
 - **Varrick:** not young; grey-threaded beard trimmed with more care than the rest of him; pack straps worn pale; short iron pry-bar; oilcloth bundle that sits faintly warm.
 
-Rook, Malakar, and Seraphina have **no confirmed likeness** yet.
+Rook, Malakar, and Seraphina have **no confirmed likeness** yet. Kell, Voss, Fenn, Orell, Reth, Ilvane, Maren, and Corwin have working portraits in `art/characters/`.
 
 ## How to brief a new piece
 

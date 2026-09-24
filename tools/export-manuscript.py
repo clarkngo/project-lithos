@@ -10,7 +10,8 @@ Walk order per book:
 
 If a matching plate exists at art/chapters/<same relative path>.png, it is
 inserted after the chapter heading in a staging copy (the manuscript on disk
-is not edited).
+is not edited). Volume covers at art/covers/book-N.png are used as the EPUB
+cover image and prepended as page one of the PDF.
 
 Usage:
   python3 tools/export-manuscript.py
@@ -30,9 +31,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 NOVEL_ROOT = ROOT / "novel"
 ART_CHAPTERS = ROOT / "art" / "chapters"
+ART_COVERS = ROOT / "art" / "covers"
+SERIES_POSTER = ROOT / "art" / "characters" / "key-art-cast.png"
 DEFAULT_OUTDIR = ROOT / "exports"
 TITLE = "The Last Lithoi"
-COVER = ROOT / "art" / "characters" / "key-art-cast.png"
 
 SPLIT_DIGITS = re.compile(r"(\d+)")
 HEADING = re.compile(r"^# .+$", re.M)
@@ -168,6 +170,68 @@ def output_stem(book: int | None) -> str:
     return f"the-last-lithoi-book-{book}"
 
 
+def cover_image(book: int | None) -> Path | None:
+    if book is not None:
+        candidate = ART_COVERS / f"book-{book}.png"
+        if candidate.is_file():
+            return candidate
+    first = ART_COVERS / "book-1.png"
+    if first.is_file():
+        return first
+    if SERIES_POSTER.is_file():
+        return SERIES_POSTER
+    return None
+
+
+def page_size_pt(pdf_path: Path) -> tuple[float, float]:
+    from pypdf import PdfReader
+
+    box = PdfReader(str(pdf_path)).pages[0].mediabox
+    return float(box.width), float(box.height)
+
+
+def compile_cover_pdf(cover_png: Path, dest_pdf: Path, work: Path, width_pt: float, height_pt: float) -> None:
+    typst = shutil.which("typst")
+    if not typst:
+        sys.stderr.write("error: typst is required to stamp a cover onto the PDF.\n")
+        sys.exit(1)
+
+    shutil.copy2(cover_png, work / "cover.png")
+    source = work / "cover.typ"
+    source.write_text(
+        (
+            f"#set page(width: {width_pt}pt, height: {height_pt}pt, margin: 0pt)\n"
+            '#image("cover.png", width: 100%, height: 100%, fit: "cover")\n'
+        ),
+        encoding="utf-8",
+    )
+    result = subprocess.run(
+        [typst, "compile", str(source), str(dest_pdf)],
+        cwd=str(work),
+        check=False,
+    )
+    if result.returncode != 0 or not dest_pdf.is_file():
+        sys.stderr.write("error: typst failed to compile the PDF cover page.\n")
+        sys.exit(result.returncode or 1)
+
+
+def prepend_cover_pdf(cover_png: Path, body_pdf: Path, work: Path) -> None:
+    from pypdf import PdfReader, PdfWriter
+
+    width_pt, height_pt = page_size_pt(body_pdf)
+    cover_pdf = work / "cover.pdf"
+    compile_cover_pdf(cover_png, cover_pdf, work, width_pt, height_pt)
+
+    writer = PdfWriter()
+    for path in (cover_pdf, body_pdf):
+        for page in PdfReader(str(path)).pages:
+            writer.add_page(page)
+    stamped = work / "stamped.pdf"
+    with stamped.open("wb") as handle:
+        writer.write(handle)
+    shutil.move(stamped, body_pdf)
+
+
 def run_pandoc(pandoc: str, args: list[str]) -> None:
     result = subprocess.run([pandoc, *args], check=False)
     if result.returncode != 0:
@@ -214,8 +278,10 @@ def main() -> None:
         print(f"  {source.relative_to(ROOT)}{marker}")
 
     metadata = ["--metadata", f"title={TITLE}", "--toc"]
-    if COVER.is_file():
-        metadata.extend(["--epub-cover-image", str(COVER)])
+    cover = cover_image(args.book)
+    if cover:
+        metadata.extend(["--epub-cover-image", str(cover)])
+        print(f"Cover: {cover.relative_to(ROOT)}")
 
     with tempfile.TemporaryDirectory(prefix="lithos-export-") as tmp:
         staging = Path(tmp)
@@ -261,6 +327,9 @@ def main() -> None:
                     *source_args,
                 ],
             )
+            if cover:
+                print(f"Stamping PDF cover from {cover.relative_to(ROOT)}")
+                prepend_cover_pdf(cover, pdf_path, staging)
 
     print("\nDone.")
 

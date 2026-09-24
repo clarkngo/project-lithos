@@ -27,7 +27,11 @@ const { title, lede, pages, basePath, thumbs } = Astro.props;
         <li>
           <a href={withBase(`${basePath}/${page.slug}/`)} class="slot-card overflow-hidden block no-underline hover:border-brass/60">
             {thumb && (
-              <img src={thumb.src} alt="" class="w-full h-44 object-cover object-top bg-ink" />
+              <img
+                src={thumb.src}
+                alt=""
+                class="w-full h-56 object-contain object-center bg-[#ebe4d6]"
+              />
             )}
             <div class="p-5">
               <p class="font-serif text-xl text-paper">{page.title}</p>
