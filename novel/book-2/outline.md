@@ -1,6 +1,6 @@
 # The Last Lithoi — Book Two: The Tethering (working title)
 
-**Structure:** Two acts, continuing directly from Book One. Where Book One asked what Caelen was willing to spend to keep his own autonomy, Book Two asks what it costs to let that choice belong to other people too — Seraphina's tethering rite is no longer a private hope, it's a spreading, unlicensed truth, and every faction that failed to control Caelen in Book One now has to decide what to do about a *doctrine* instead of a boy. See [style-guide.md](../style-guide.md) for voice and terminology; see [book-1/outline.md](../book-1/outline.md) for everything this volume assumes as read.
+**Structure:** Two acts, continuing directly from Book One. Where Book One asked what Caelen was willing to spend to keep his own autonomy, Book Two asks what it costs to let that choice belong to other people too — Seraphina's tethering rite is no longer a private hope, it's a spreading, unlicensed truth, and every faction that failed to control Caelen in Book One now has to decide what to do about a *doctrine* instead of a boy. See [style-guide.md](../style-guide.md) for voice and terminology; see [book-1/outline.md](../outline.md) for everything this volume assumes as read.
 
 **Time frame:** Opens roughly eight months after Book One's close. The found family — Caelen, Varrick, Rook, Seraphina, Malakar — has not settled so much as stalled, holding an uneasy line at the edge of the Glass Wastes while each of them works, separately, at the unfinished business Book One left them carrying.
 
@@ -26,7 +26,7 @@
    Introduce Director Kell. The Guild's new regional director has read Book One's failure as a failure of method, not of goal — the Vault is still there, still full, and force merely announced the Guild's interest before it could act on it. Kell begins laying quieter groundwork: surveying for a second site, and identifying exactly which member of the found family is most reachable.
 
 4. **Chapter 04 — Malakar insert — "The Oathbreaker's Ledger"**
-   Malakar, formally declared rogue by the Warden order, is hunted not by strangers but by Captain Orell — a man who once took his reports without comment and now has to decide whether loyalty to the order outweighs eleven years of working under a man he respected. Malakar begins, carefully, building something the Wardens have never had: a sympathizer network inside the order itself.
+   Malakar, formally declared rogue by the Warden order, is hunted not by strangers but by Captain Orell — a man who once took his reports without comment and now has to decide whether loyalty to the order outweighs twenty years of working under a man he respected. Malakar begins, carefully, building something the Wardens have never had: a sympathizer network inside the order itself.
 
 5. **Chapter 05 — "Varrick's Ledger"**
    The wound from the Vault has not healed the way any of them let themselves hope. A quiet chapter — grief arriving early this time, anticipatory rather than reactive. Rook's fear returns in a new register: not fear of Caelen, but fear of losing Varrick, and no rite or Shift or choosing can fix that kind. The found family reckons, plainly, with an ending none of Book One's victories bought them out of.

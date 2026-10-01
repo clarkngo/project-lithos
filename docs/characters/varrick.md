@@ -18,6 +18,8 @@ Confirmed on the page (first appearance, forest above the mine):
 - Moves with economical caution — eyes to the ground, to the trees, to the ground again.
 - Pack straps worn pale with use. Short iron pry-bar at the belt; oilcloth-wrapped cargo that sits faintly warm (marrow-glass, though Caelen has no word for it yet).
 - Joints crack audibly when he straightens. He is already slower than the work he does, and he knows it.
+- Book One's climax leaves him with a wound — struck across the ribs by a Guild drilling strut meant for Caelen — that Malakar pronounces will never fully heal.
+- Book Two: visibly greyer, slower to rise, breath gone thin and careful in cold weather. The unhealed wound is the book's whole mortality throughline; he dies of it partway through, at the camp, with Fenn beside him.
 
 <!-- TODO: confirm against manuscript — age in years, origin before Guild exile, old injuries, whether he ever used a conduit himself. -->
 
@@ -40,10 +42,12 @@ Cadence is clipped rather than courtly. He will name a thing ("strata child") th
 ## Arc summary
 
 <details>
-<summary>Contains Book One outline spoilers</summary>
+<summary>Contains Book One–Two outline spoilers</summary>
 
-Act One: the transactional taking-in becomes, without his quite admitting it, kinship. He is the one who forces the hard conversation after Caelen's first full Shift — what the boy is becoming, and what it will cost all three of them.
+Book One, Act One: the transactional taking-in becomes, without his quite admitting it, kinship. He is the one who forces the hard conversation after Caelen's first full Shift — what the boy is becoming, and what it will cost all three of them.
 
-Act Two: aged, slower, still dry. Still walking. The found family he did not mean to build has to decide, with him in it, whether Caelen's autonomy is worth standing against Guild and Synod both.
+Book One, Act Two: aged, slower, still dry. Still walking. The found family he did not mean to build has to decide, with him in it, whether Caelen's autonomy is worth standing against Guild and Synod both. The Vault standoff costs him a wound that never closes.
+
+Book Two: the wound becomes the book's central grief, seeded in an early chapter and spent, not sprung, at the end. He finally drops the "terms, not charity" lie he has told since the first night — admits plainly that it stopped being arithmetic after the first winter — and dies at the camp, asking Caelen not to carry guilt on top of the grief. He is buried on the rise above the Wastes; the debt he leaves is described, afterward, as renewed rather than closed.
 
 </details>

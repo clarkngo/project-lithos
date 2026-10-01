@@ -46,7 +46,7 @@ Lord Ilvane's face did not move. It was the face of a man being read aloud.
 
 She drew a breath. In the silence, Caelen could hear a page turn somewhere in the gallery, and the small dry creak of a bench.
 
-"My brother's name was Tomas," she said. "He was born two years after me. He was funny. He could not keep a secret to save his life, and he kept one anyway, for a season, and it killed him. He bought a conduit he could not afford from a man who did not ask questions, and he wore it in secret for six months. It was a Talon Vector, an Ember Cadence. He Shifted in the gardens at night. He did it because it was the only time in his life that he was not being watched, and he was sixteen, and he had never in his life been free."
+"My brother's name was Tomas," she said. "He was born two years after me. He was funny. He could not keep a secret to save his life, and he kept one anyway, for a season, and it killed him. He bought a conduit he could not afford from a man who did not ask questions, and he wore it in secret for six months. It was a Talon Vector, an Ember Cadence. He Shifted in the gardens at night. He did it because it was the only time in his life that he was not being watched, and he was fifteen, and he had never in his life been free."
 
 Somewhere, very far back in the gallery, a woman made a small sound.
 
@@ -64,7 +64,7 @@ It was Maren who broke it, though not with words. She simply set down the stylus
 
 Seraphina inclined her head. She had turned back to the fourth row. She said, to her father, in a voice he alone was meant to hear, and which carried, in that vast stillness, to every corner of the vault:
 
-"I am not refusing your offer because I do not love you. I am refusing it because I do. You kept his name four years. You said it in the study, and I felt it go through the house like a bell. I do not think you want it forgotten. I think you want to *survive* it. But there is a way of surviving a thing that is only a slower way of losing it. I have watched it in this city all my life. I would rather Tomas were remembered as what he was."
+"I am not refusing your offer because I do not love you. I am refusing it because I do. You kept his name five years. You said it in the study, and I felt it go through the house like a bell. I do not think you want it forgotten. I think you want to *survive* it. But there is a way of surviving a thing that is only a slower way of losing it. I have watched it in this city all my life. I would rather Tomas were remembered as what he was."
 
 Lord Ilvane sat very still. Then he closed his eyes.
 
@@ -88,7 +88,7 @@ He bowed, not to the Custodians, but to Seraphina, low and slow, with the courte
 
 Then he sat down again, in the aisle, on the cold stone, and Caelen understood that his knees had simply stopped holding him.
 
-Nobody moved. Nobody spoke. Lord Ilvane's eyes were still closed, and a single tear had gone down his long composed face and stopped at the corner of his mouth, where it stayed, like a thing that had been there for four years and had only now been permitted to show.
+Nobody moved. Nobody spoke. Lord Ilvane's eyes were still closed, and a single tear had gone down his long composed face and stopped at the corner of his mouth, where it stayed, like a thing that had been there for five years and had only now been permitted to show.
 
 Caelen looked at Seraphina at the lectern. Her hand was still flat on the wood. She was looking at her father with a face that had gone quite empty of everything but a great tired tenderness.
 

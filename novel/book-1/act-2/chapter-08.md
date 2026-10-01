@@ -36,7 +36,7 @@ It was Malakar who broke the silence that followed his account of it, once Caele
 
 "Which is exactly why the Synod's sealed it," Seraphina said, quiet. "Not only for the tethering rite, or whatever else the old fragments hold. For this. A reserve nobody sanctioned, nobody's ledger accounts for, sitting unclaimed and unwatched in ground neither the Guild nor the Wardens has ever fully mapped."
 
-"Then we should assume," Malakar said, "that the Guild has spent considerably more effort than any of us credited them for trying to find it independently, reliquary theft or no. Which means—" He stopped there, listening, his whole body going suddenly, professionally still, the same stillness Caelen remembered from a burning lane nine years gone.
+"Then we should assume," Malakar said, "that the Guild has spent considerably more effort than any of us credited them for trying to find it independently, reliquary theft or no. Which means—" He stopped there, listening, his whole body going professionally, entirely still, the same stillness Caelen remembered from a burning lane nine years gone.
 
 Caelen heard it a beat later, the sound carrying strange and flat across the Wastes' scarred silence — not boots this time, not dogs, but the low grinding rumble of heavy machinery, distant still, but moving with a scale and a purpose that no salvage cart or single survey crew could account for.
 

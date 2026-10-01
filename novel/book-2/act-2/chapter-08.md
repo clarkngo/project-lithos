@@ -16,7 +16,7 @@ Rook had been quiet through most of the accounting, sharpening a blade that had 
 
 "Two appetites," Caelen said, quiet, "wearing different ledgers, same as Voss told Seraphina at the resonance well, back before any of this had a name yet. Control, dressed up as doctrine on one side, dressed up as industry on the other. I don't think either of them's lying about believing their own version. I think that's what makes it dangerous rather than simply cruel."
 
-"It's dangerous regardless of what either of them believes," Malakar said. "And it means the second seal isn't simply an unstable door we need to close for safety's sake. It's the entire foundation of an arrangement that, if it succeeds, hands the Guild a precedent — a licensed, Synod-sanctioned survey allowance drawn directly from Lithoi remains. However modest Voss believes that allowance to be, precedent doesn't stay modest for very long once it's been established. I watched my own order's doctrine prove exactly that, over eleven years."
+"It's dangerous regardless of what either of them believes," Malakar said. "And it means the second seal isn't simply an unstable door we need to close for safety's sake. It's the entire foundation of an arrangement that, if it succeeds, hands the Guild a precedent — a licensed, Synod-sanctioned survey allowance drawn directly from Lithoi remains. However modest Voss believes that allowance to be, precedent doesn't stay modest for very long once it's been established. I watched my own order's doctrine prove exactly that, over twenty years."
 
 ---
 

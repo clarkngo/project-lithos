@@ -54,7 +54,7 @@ It was not what he had meant to begin with. It came out anyway, and he let it st
 
 He drew a breath.
 
-"But I've been offered this before." A quiet ran through the hall. "Not by him. In a place you haven't heard of. A door in a mountain that I'd closed, and a Custodian, an old woman, very tired, who stood there and told me the Synod would take away the thing that made me dangerous, in exchange for the door staying shut. She called it *peace.* She meant it. I believed she meant it. And I said no."
+"But I've been offered this before." A quiet ran through the hall. "Not by him. At a door in a mountain that I'd closed, and a Custodian, an old woman, very tired, who stood there and told me the Synod would take away the thing that made me dangerous, in exchange for the door staying shut. She called it *peace.* She meant it. I believed she meant it. And I said no."
 
 "I said no because the thing that made me dangerous was also the thing that let me do everything I've done since. You can't cut the danger out and keep the person. That was the whole of my argument, then, and I don't think I had the words for it. I do now."
 

@@ -10,7 +10,7 @@ The door, when they found it, was not a door in any sense the word usually carri
 
 ---
 
-The chamber beyond opened into a space that made every prior understanding Caelen had built of Aethel-Cores, of conduits, of the whole careful economy his adult life had been built around navigating, feel suddenly, sickeningly small.
+The chamber beyond opened into a space that made every prior understanding Caelen had built of Aethel-Cores, of conduits, of the whole careful economy his adult life had been built around navigating, feel sickeningly, all at once, small.
 
 Marrow-glass lined the walls in vast unbroken sheets, not cut, not vitrified into the small manageable shards the Guild traded by the ounce, but whole — column after column of amber-dark stone holding its own faint internal light, stretching up into a ceiling lost somewhere in shadow far above the reach of their single failing lantern. It was not simply fuel, stacked and waiting. It was memory made solid, Caelen understood, the way the small shard's pulse had once answered something in his own chest — this entire chamber was that same answering pulse, multiplied past any scale a single body could safely hold, a whole civilization's worth of marrow gathered here deliberately, by hands that had understood, with a clarity the present world had long since lost, exactly what they were choosing to seal away.
 

@@ -6,7 +6,7 @@
 
 **MALAKAR**
 
-He had counted them so often that the number had stopped being a figure and become a kind of weather. Thirteen names. Thirteen people scattered through the garrisons of the eastern territories, each one holding a small refusal, misfiling an order, delaying a rotation, treating a case quietly that the doctrine required be reported. Thirteen was a dozen and one, and a dozen and one was not an army. Malakar knew precisely what it was, because he had spent eleven years learning to read exactly how much weight a piece of paper could bear.
+He had counted them so often that the number had stopped being a figure and become a kind of weather. Thirteen names. Thirteen people scattered through the garrisons of the eastern territories, each one holding a small refusal, misfiling an order, delaying a rotation, treating a case quietly that the doctrine required be reported. Thirteen was a dozen and one, and a dozen and one was not an army. Malakar knew precisely what it was, because he had spent twenty years learning to read exactly how much weight a piece of paper could bear.
 
 He set the count down on the table in the back room of the surgeon's house at Kesh Hollow, beside a candle and a plate of cold mutton nobody had touched, and looked at the faces around it.
 
@@ -42,7 +42,7 @@ When the room had emptied Malakar stayed at the table with Orell and the candle.
 
 "You've made a decision," Orell said.
 
-"I made it in a lodging room, with the file," Malakar said. "The night I first read Petra's name. I have only been arranging the paperwork ever since." He rubbed his eyes. "It is a peculiar thing, Orell. I spent eleven years perfecting the art of having no fingerprints. I documented every force parameter so that no tribunal could say I had acted beyond doctrine. And the first useful thing I have done since leaving the order is the exact opposite. I am going to put my own name on a record and say: *I did this, and I believed it, and I was wrong, and here is the proof.*"
+"I made it in a lodging room, with the file," Malakar said. "The night I first read Petra's name. I have only been arranging the paperwork ever since." He rubbed his eyes. "It is a peculiar thing, Orell. I spent twenty years perfecting the art of having no fingerprints. I documented every force parameter so that no tribunal could say I had acted beyond doctrine. And the first useful thing I have done since leaving the order is the exact opposite. I am going to put my own name on a record and say: *I did this, and I believed it, and I was wrong, and here is the proof.*"
 
 "That's not the opposite," Orell said. "That's the same skill. You just finally aimed it at the right document."
 
@@ -56,7 +56,7 @@ Malakar almost smiled, and noticed how easily it came. A year among people who s
 
 He walked back to his lodging late, through streets he knew by heart and did not belong to. A patrol crossed the square ahead, grey and brass, and he stopped in a doorway and let it pass, and felt, watching the disciplined unhurried tread, the old lurch: the part of him that still leaned toward that formation the way a plant leans toward a window it grew up beside.
 
-He did not resent it. He had learned to let it be there, as he had let the stalled clause finally finish itself. It was not loyalty. It was only the shape of a life he had spent eleven years fitting himself to, and it would take longer than a year to unlearn the shape of a room.
+He did not resent it. He had learned to let it be there, as he had let the stalled clause finally finish itself. It was not loyalty. It was only the shape of a life he had spent twenty years fitting himself to, and it would take longer than a year to unlearn the shape of a room.
 
 In his lodging he lit a lamp and drew a sheet toward him and began, in his exact and careful hand, a document he had never written before. Not a report. Not a recovery order. A statement of testimony.
 

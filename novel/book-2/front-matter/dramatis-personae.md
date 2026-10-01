@@ -8,13 +8,13 @@
 
 **ROOK** — steadier now, the old fast rhythm spent more carefully, though it still finds its footing fastest at a found-family fire. Learns, this book, the difference between fear that runs and fear that stays and fights anyway.
 
-**MALAKAR** — formally renounced by the Warden order, and building, quietly, one careful name at a time, the thing that order has never once had: a conscience working from the inside. Finds, this book, that eleven years of doctrine can still be spent on something worth spending it on.
+**MALAKAR** — formally renounced by the Warden order, and building, quietly, one careful name at a time, the thing that order has never once had: a conscience working from the inside. Finds, this book, that twenty years of doctrine can still be spent on something worth spending it on.
 
 **SERAPHINA** — the reliquary's fugitive archivist, now its most dangerous unlicensed teacher. Carries the tethering rite out of one private grief and into a season's worth of families who'd been told, the same way she was, that nothing could be done. Learns exactly what that mercy costs, and pays it anyway.
 
 **FENN** — a brass-fitter first, a Drift-afflicted stranger second, though neither description holds him whole for very long. Walked three weeks to ask for a season he was told, honestly, the rite couldn't fully buy him. Spends what he's given protecting people who never once asked him to.
 
-**CAPTAIN ORELL** — of the Warden order, formerly. Spent eleven years taking Malakar's reports without comment. Spends this book finally deciding what all that careful silence actually meant, and what it's going to cost him to stop keeping it.
+**CAPTAIN ORELL** — of the Warden order, formerly. Spent twenty years taking Malakar's reports without comment. Spends this book finally deciding what all that careful silence actually meant, and what it's going to cost him to stop keeping it.
 
 ---
 

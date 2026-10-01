@@ -36,7 +36,7 @@ The teacup was very light in her hand. "Nor did you in your letter."
 
 "I could." He turned the ring on his finger, once. "Tomas."
 
-It was a small sound, and it went through her like a blade. Four years. She had forgotten, or had trained herself to forget, that her father's voice could make the name sound like a thing that had been loved. She sat quite still and let it pass through, and waited, and he did not go on.
+It was a small sound, and it went through her like a blade. Nearly five years. She had forgotten, or had trained herself to forget, that her father's voice could make the name sound like a thing that had been loved. She sat quite still and let it pass through, and waited, and he did not go on.
 
 "That is all I can manage," Lord Ilvane said, quietly. "I would like you to understand that it is not for want of grief."
 
@@ -50,7 +50,7 @@ He told her, then, in the level unhurried voice he used for accounts, and she li
 
 The House of Ilvane had stood for nine generations, he said. It had stood by never once being the subject of a story. The Spire's old families did not survive on wealth or blood. They survived on the absence of anything that might, on a slow afternoon, be whispered. A drifting son was a whisper. A son *returned to the mountains for treatment* was a scandal that could not be lived down in three generations, because it proved that the House had known and had failed, and the whole edifice of marriage and treaty and quiet obligation that held its name upright depended on the belief that Ilvanes did not fail in private.
 
-"I did not send him because I did not love him," her father said. "I sent him because I had two other children and a name that fed forty households, and I could not find a way to keep all of them. I have gone over it every night for four years, and I have not found the way. I wish very much that you could tell me where I erred."
+"I did not send him because I did not love him," her father said. "I sent him because I had two other children and a name that fed forty households, and I could not find a way to keep all of them. I have gone over it every night for five years, and I have not found the way. I wish very much that you could tell me where I erred."
 
 "You could have kept him."
 
@@ -74,13 +74,13 @@ She had suspected it. She had rehearsed the moment in her head across a hundred 
 
 "I thought there might be."
 
-"The House has a position. It is a comfortable one, and I have spent three years constructing it. Our story is that Tomas died abroad of a fever, while traveling for his health, and that you left the Spire in grief to carry out a work of charity in his memory. It is a good story. It has the great virtue of being almost true." He said it without irony. "In the hall, if the House speaks for the rite, the Spire will believe that story. It will also, I think, believe the rite. A House charity. Sanctioned. Quiet."
+"The House has a position. It is a comfortable one, and I have spent five years constructing it. Our story is that Tomas died abroad of a fever, while traveling for his health, and that you left the Spire in grief to carry out a work of charity in his memory. It is a good story. It has the great virtue of being almost true." He said it without irony. "In the hall, if the House speaks for the rite, the Spire will believe that story. It will also, I think, believe the rite. A House charity. Sanctioned. Quiet."
 
 "And if I do not stand under the House's name."
 
 "Then you stand alone, and the Spire will make its own story of you, and I will not be able to protect you from it." He met her eyes. "I am not threatening you. I want that quite clear. I am telling you what will happen."
 
-She thought of a stone circle. Of a boy with brass tools who had asked for a season and been given one. Of a mother in a doorway with a daughter's hand held tight, saying *better, not cured.* Of a name that had come out of her father's mouth as if it were a stone he had carried in his pocket for four years.
+She thought of a stone circle. Of a boy with brass tools who had asked for a season and been given one. Of a mother in a doorway with a daughter's hand held tight, saying *better, not cured.* Of a name that had come out of her father's mouth as if it were a stone he had carried in his pocket for five years.
 
 "You want me to help you keep forgetting," she said.
 

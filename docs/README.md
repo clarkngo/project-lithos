@@ -1,6 +1,6 @@
 # Worldbuilding & Lore Bible
 
-Canonical reference for *The Last Lithoi*. The manuscript in `/novel` is the source of truth; this bible should never contradict it. Where a fact has not yet been confirmed on the page, it is marked:
+Canonical reference for *The Last Lithoi*, covering Books One through Three. The manuscript in `/novel` is the source of truth; this bible should never contradict it. Where a fact has not yet been confirmed on the page, it is marked:
 
 `<!-- TODO: confirm against manuscript -->`
 
@@ -22,4 +22,4 @@ Canonical reference for *The Last Lithoi*. The manuscript in `/novel` is the sou
 
 ## Spoiler policy
 
-Character arc summaries and Act Two beats are writer-facing. The Codex site collapses them behind a spoiler disclosure by default.
+Character arc summaries and later-act beats, across all three books, are writer-facing. The Codex site collapses them behind a spoiler disclosure by default.

@@ -6,7 +6,7 @@ They buried the four raiders at dawn, unmarked as they'd died, because Caelen un
 
 "Voss's colors," Rook said, flat, still bloodied from the fight, his fast rhythm gone entirely quiet in a way that had settled into him, Caelen understood, the same way it had settled after Ansel, and after the Sinking Fields, and after every hard cost this life had ever handed him to carry.
 
-"Voss's colors on one dead man's bootlace," Malakar said, careful, "which could mean Voss commissioned this directly, or could mean someone wanted us to believe exactly that while a different ledger did the actual paying. I don't say this to muddy what feels, I know, like the one clear thread we've got. I say it because I spent eleven years learning that the clearest thread in a case file is often the one somebody left for you to find on purpose."
+"Voss's colors on one dead man's bootlace," Malakar said, careful, "which could mean Voss commissioned this directly, or could mean someone wanted us to believe exactly that while a different ledger did the actual paying. I don't say this to muddy what feels, I know, like the one clear thread we've got. I say it because I spent twenty years learning that the clearest thread in a case file is often the one somebody left for you to find on purpose."
 
 "Then we find out which," Caelen said. "Properly. Not guessing at a fire, arguing over one bootlace until the argument itself becomes an excuse not to move."
 
