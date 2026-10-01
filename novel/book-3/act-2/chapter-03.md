@@ -8,7 +8,7 @@
 
 They had given him a lectern of pale wood and a glass of water, and he found that neither was of the slightest use.
 
-He stood in the center of the Hall of Canon on the fourth morning of the hearing, his hood thrown back for the first time in a year, and the vast grey room went silent around him in the exact way a Warden garrison went silent when a man was about to be sentenced. He had stood at the edge of that silence eleven years. He had never once stood inside it.
+He stood in the center of the Hall of Canon on the fourth morning of the hearing, his hood thrown back for the first time in a year, and the vast grey room went silent around him in the exact way a Warden garrison went silent when a man was about to be sentenced. He had stood at the edge of that silence twenty years. He had never once stood inside it.
 
 Custodian Maren had made the ruling the night before, and it had been read to the hall at dawn: that all persons giving testimony in this hearing were under the protection of the hall's precincts, and that no arrest, detention, or recovery order of any civil or military authority would be served within them until the hearing's close. It had been, Malakar knew, the boldest thing she had yet done. It had cost her three of the eldest Custodians' votes in the preliminary count. She had not looked at him when she read it.
 
@@ -28,7 +28,7 @@ He told them about a boy of nine years, pulled from a mountain, and the file on 
 
 A murmur moved through the tiers. Across the hall, in the grey-and-brass gallery, a man in a Commander's braid shifted in his seat.
 
-"I did not leave the order because I stopped believing in law," Malakar said. "I left because I discovered that law had no clause for what I was looking at. And I had spent eleven years training myself never to look at what the clauses did not cover."
+"I did not leave the order because I stopped believing in law," Malakar said. "I left because I discovered that law had no clause for what I was looking at. And I had spent twenty years training myself never to look at what the clauses did not cover."
 
 He drew a breath. It shook slightly. He let it.
 
@@ -78,7 +78,7 @@ Then a voice spoke from the horseshoe, low, and steady, and so utterly free of c
 
 "Thank you, Petra Halsey. The hall enters your testimony in full." Maren's hands were quite still. "The tribunal is directed to produce, within three days, the complete record of the case against you, and the reasons for its deferral. If it cannot, the hall will draw its own conclusions."
 
-It was not a verdict. It was not even a ruling. It was only a small hard thing dropped into a very deep well, and Malakar heard it strike the water. It would not be forgotten. He had spent eleven years learning the weight of paper, and he knew, in his bones, what it would mean when a hall of forty-one Custodians wrote a line in its own record and did not let it be struck.
+It was not a verdict. It was not even a ruling. It was only a small hard thing dropped into a very deep well, and Malakar heard it strike the water. It would not be forgotten. He had spent twenty years learning the weight of paper, and he knew, in his bones, what it would mean when a hall of forty-one Custodians wrote a line in its own record and did not let it be struck.
 
 ---
 
@@ -92,7 +92,7 @@ Malakar sat beside him. For a while neither spoke.
 
 "You knew that when you started."
 
-"I did." Malakar looked at his hands. They were very steady. "I would like to say, Orell, that I have never in my life felt more afraid. It would be a lie. I feel almost nothing. Only a sort of enormous quiet, as though I had been carrying a beam for eleven years and set it down."
+"I did." Malakar looked at his hands. They were very steady. "I would like to say, Orell, that I have never in my life felt more afraid. It would be a lie. I feel almost nothing. Only a sort of enormous quiet, as though I had been carrying a beam for twenty years and set it down."
 
 "It's not down," Orell said, gently. "You've just put it where somebody else can see it."
 
@@ -100,4 +100,4 @@ Malakar sat beside him. For a while neither spoke.
 
 Across the plaza, near a column, a woman in a plain brown dress stood with a tribunal guard, being handed a cup of water by a clerk in Guild grey. She was looking at the sky. Her face was thin and lined and utterly astonished, as if she had forgotten it went on that far.
 
-Malakar looked at her a long time. Then he did a thing he had not done in eleven years of service. He put his face in his hands, and let it be seen.
+Malakar looked at her a long time. Then he did a thing he had not done in twenty years of service. He put his face in his hands, and let it be seen.

@@ -27,16 +27,22 @@ He is funny under the bravado. The humor is not Varrick's dry load-bearing kind;
 - **Varrick** — trading partner in Hollow Cut before he is anything like family.
 - **Caelen** — first peer relationship Caelen has had since the mine. Fiercely loyal under the bravado; also the first to pull away when he sees what a Shift actually costs.
 - **Hollow Cut** — street-hardened there; the settlement's destruction is the crisis that forces him back rather than resolving the fracture cleanly.
+- **Varrick** — found family in Book One; Varrick's death in Book Two is the first grief Rook faces with no cordon to fight and no choosing that can push back against it.
+- **Orell** — Book Three. An unlikely pairing — a street-hardened knife-fighter and a defected Warden captain — that settles into genuine friendship running the camp's defenses together.
 
 <!-- TODO: confirm against manuscript — family of origin, what he trades, whether he has a Guild or Warden mark on his record. -->
 
 ## Arc summary
 
 <details>
-<summary>Contains Book One outline spoilers</summary>
+<summary>Contains Book One–Three outline spoilers</summary>
 
-Act One: introduced as a street-hardened companion; becomes found family; fractures after witnessing Caelen's first full Shift; returns when Hollow Cut burns — reforming under fire rather than with a speech.
+Book One, Act One: introduced as a street-hardened companion; becomes found family; fractures after witnessing Caelen's first full Shift; returns when Hollow Cut burns — reforming under fire rather than with a speech.
 
-Act Two: an adult who stayed rather than one who fled. He is the one who talks Caelen back from the edge when consecutive Wastes Shifts push Drift further than it has gone since childhood. The bond is tested and, this time, holds.
+Book One, Act Two: an adult who stayed rather than one who fled. He is the one who talks Caelen back from the edge when consecutive Wastes Shifts push Drift further than it has gone since childhood. The bond is tested and, this time, holds.
+
+Book Two: nearly breaks under a different temptation — Director Kell offers him Guild physicians who could save Varrick, in exchange for information he could almost rationalize as harmless. He refuses, not easily, and the refusal (not the temptation) is what Varrick tells him matters. Loses Varrick anyway, by the only kind of ending nobody gets to refuse.
+
+Book Three: steadier, the fast rhythm spent more carefully, slower to speak but the one the others lean on without noticing. Present at the Spire hearing; one of the first to sign the witness roll beside Caelen.
 
 </details>

@@ -34,3 +34,14 @@ The Culling hunted the Lithoi to extinction for their marrow. The Guild is the i
 The Guild does not exist to Shift. It exists to feed Shifting. Unlicensed marrow-glass trade (Varrick's work) is a ledger problem that becomes a patrol problem. A "strata child" is not a miracle. It is a discrepancy — something lost, something to be recovered, named, and described.
 
 When the Vault enters the political frame, the Guild's interest is extraction rights: an untapped Aethel-Core reserve that could restart mass harvest.
+
+## Book Two–Three: from one door to one doctrine
+
+<details>
+<summary>Contains Book Two–Three outline spoilers</summary>
+
+Book Two: a new regional director, **Kell**, replaces the Director disgraced at the Vault standoff — patient where her predecessor was reckless. Her off-the-books arrangement with Custodian Voss (quiet provisioning for a licensed survey allowance on a second Lithoi seal) is exposed when Caelen's crew raids it, costing her the directorship.
+
+Book Three: Board **Chairman Reth** reads Kell's failure as a failure of nerve, not method, and escalates from one contested door to one territory-wide standard — a single Guild-funded, Synod-licensed register and treatment office for all Lithoi remains and Resonance use. His petition is not industrial greed dressed as doctrine so much as genuine horror at a death toll no single authority answers for; it still serves the Guild's oldest appetite, control dressed as compassion. Fails to secure a clean mandate (the Hall of Canon's finding passes 22–19 against his version), but is not defeated — he accepts the finding and promises to "return, with names."
+
+</details>

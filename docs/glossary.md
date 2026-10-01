@@ -45,8 +45,36 @@ terms:
     seeAlso: [the-shift, conduit, warden-enforcers]
   - id: tethering-rite
     term: The tethering rite
-    definition: A Lithoi-era methodology for drawing a drifting mind back from the edge — treatment, not cure, not Synod suppression. Sealed in reliquary fragments; not offered to families who lost someone to Drift.
-    seeAlso: [atavistic-drift, the-synod, lithoi]
+    definition: A Lithoi-era methodology for drawing a drifting mind back from the edge — treatment, not cure, not Synod suppression. Sealed in reliquary fragments; not offered to families who lost someone to Drift. Requires a banked, steady Resonant presence as an anchor. Taught openly from Book Three onward under the hall's finding.
+    seeAlso: [atavistic-drift, the-synod, record-core, the-finding]
+  - id: record-core
+    term: Record-Core
+    definition: A rare marrow-glass shard vitrified as memory rather than fuel — a full accounting laid down by Lithoi hands before the Culling. Pulses in the presence of someone with a strong Lithoi connection rather than radiating the even warmth of an ordinary Aethel-Core.
+    seeAlso: [aethel-core, lithoi, the-vault]
+  - id: custodian
+    term: Custodian
+    definition: A Synod rank, not a single named office. Synod representatives speak in the order's characteristic question-shaped cadence regardless of which individual holds the title. See the Custodian Voss and Custodian Maren character dossiers for named examples.
+    seeAlso: [the-synod]
+  - id: director
+    term: Director
+    definition: A senior Mining Guild rank, above ordinary survey factors and crew bosses — authorized to commit expedition-scale resources and to speak for the Guild's ledger directly. A Board Chairman sits above the regional directors. See the Kell and Reth character dossiers for named examples.
+    seeAlso: [mining-guild]
+  - id: the-finding
+    term: The finding
+    definition: The Hall of Canon's provisional ruling in Book Three — no register of persons except in public and open to inspection by those it names; no containment without a hearing; houses of treatment funded from the hall's own treasury; no practice of the rite a crime. Adopted 22–19.
+    seeAlso: [the-synod, house-of-treatment, the-roll]
+  - id: house-of-treatment
+    term: House of treatment
+    definition: A publicly funded, publicly rolled refuge where the tethering rite is practiced and taught openly, established under the finding. The first is a lower-ring Spire house in Book Three; a second, for drifting Wardens, opens at Kesh Hollow.
+    seeAlso: [the-finding, tethering-rite, the-roll]
+  - id: enforcement-housing
+    term: Enforcement housing
+    definition: A licensed conduit issued to Warden Captains of containment for field use. A decade of wear can itself cause Drift in the wearer — a fact the Warden order never knew until Captain Roshe drifted live in open hearing.
+    seeAlso: [conduit, warden-enforcers, atavistic-drift]
+  - id: the-roll
+    term: The roll
+    definition: The public register maintained on a board in the plaza before the Hall of Canon. It names no one who has not chosen to be named.
+    seeAlso: [the-finding, house-of-treatment]
   - id: the-shift
     term: The Shift
     definition: The act and event of transformation. Never instantaneous — a violent biological process with a beginning, middle, and aftermath.
@@ -95,6 +123,18 @@ terms:
     term: Deep strata
     definition: The lowest, oldest mining levels, where the richest and most dangerous marrow-glass is found.
     seeAlso: [marrow-glass, mining-guild]
+  - id: the-spire
+    term: The Spire
+    definition: A city built upward, ring on ring of pale stone climbing a single white needle, and the seat of the old noble Houses and the Synod's central hall. Seraphina's origin; visited directly for the first time in Book Three.
+    seeAlso: [hall-of-canon, house-ilvane, the-synod]
+  - id: hall-of-canon
+    term: Hall of Canon
+    definition: The Synod's central hall in the Spire — a vault so high the light arrives like weather, forty-one Custodians seated in a pale horseshoe. Built so that no one entering could forget they were small. Heard only from itself for three generations, until Book Three.
+    seeAlso: [the-spire, the-synod, the-finding]
+  - id: house-ilvane
+    term: House Ilvane
+    definition: Seraphina's House of origin, among the Spire's oldest. Survives scandal by never becoming the subject of a story — the doctrine that cost her brother Tomas his life and her father nearly five years of silence.
+    seeAlso: [the-spire]
 ---
 
 # Terminology Lexicon

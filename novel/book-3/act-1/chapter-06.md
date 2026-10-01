@@ -46,7 +46,7 @@ He taught Caelen how a Spire drawing room worked: that one never refused the fir
 
 "What does he want?" Caelen said.
 
-"That's the question, isn't it." Corwin sat down finally, on the arm of a sofa, and rubbed his forehead. "I've been trying to work it out for months. The House Ilvane has spent three years pretending its daughter simply went abroad. That story works so long as she stays abroad. She's a walking hole in it. The rite made her famous, which made the hole visible. Either he closes it, or he makes it a virtue." He let out a breath. "I'd guess the second. Fathers, in my experience, will do a great deal to avoid the first."
+"That's the question, isn't it." Corwin sat down finally, on the arm of a sofa, and rubbed his forehead. "I've been trying to work it out for months. The House Ilvane has spent two years pretending its daughter simply went abroad. That story works so long as she stays abroad. She's a walking hole in it. The rite made her famous, which made the hole visible. Either he closes it, or he makes it a virtue." He let out a breath. "I'd guess the second. Fathers, in my experience, will do a great deal to avoid the first."
 
 Rook glanced at Caelen, and Caelen understood the look. A house of that kind did not welcome a lost daughter home. It restructured its history around her.
 

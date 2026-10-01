@@ -6,7 +6,7 @@
 
 **MALAKAR**
 
-He reached Orell the way he'd once reached every difficult truth in eleven years of service — carefully, on paper first, because paper rarely lied to him the way frightened men did, and a supply requisition slipped through the annex's own provisioning chain, addressed to a name only one man serving there would recognize, was as close to paper as this particular truth was going to allow.
+He reached Orell the way he'd once reached every difficult truth in twenty years of service — carefully, on paper first, because paper rarely lied to him the way frightened men did, and a supply requisition slipped through the annex's own provisioning chain, addressed to a name only one man serving there would recognize, was as close to paper as this particular truth was going to allow.
 
 Orell found him before dawn, at the drainage cut a half-mile out where Malakar had watched Seraphina walked toward a sealed seam the day before, and he came alone, the same as the ruin all those months ago, though something in his bearing now carried considerably less of that meeting's careful uncertainty.
 
@@ -28,9 +28,9 @@ Orell found him before dawn, at the drainage cut a half-mile out where Malakar h
 
 "Then I need to ask you for something considerably larger than three careful names," Malakar said, and laid the whole shape of it out plainly — the second seal, the new-moon deadline, Seraphina's forced readings, the rescue three exhausted travelers had no real chance of managing against twelve disciplined guards without help from inside the walls.
 
-Orell was quiet a long while, the grey light strengthening slowly around them, and Malakar understood, watching him weigh it, that this was the exact moment eleven years of service and eight months of careful, provisional sympathy finally arrived at the place they could no longer avoid choosing between.
+Orell was quiet a long while, the grey light strengthening slowly around them, and Malakar understood, watching him weigh it, that this was the exact moment twenty years of service and eight months of careful, provisional sympathy finally arrived at the place they could no longer avoid choosing between.
 
-"If I help you," Orell said, finally, slow, "there's no careful misfiling that survives it. No delayed rotation, no requisition quietly lost in transit. I open a gate, or I falsify a schedule, or I simply fail to report what I've clearly seen — any of it, and I'm exactly what you became eight months ago. Renounced. Hunted. Everything I've built in eleven years, gone in a single night's choosing."
+"If I help you," Orell said, finally, slow, "there's no careful misfiling that survives it. No delayed rotation, no requisition quietly lost in transit. I open a gate, or I falsify a schedule, or I simply fail to report what I've clearly seen — any of it, and I'm exactly what you became eight months ago. Renounced. Hunted. Everything I've built in twenty years, gone in a single night's choosing."
 
 "Yes," Malakar said, because he had promised himself, walking back from that first ruin, never to make this particular choice sound smaller to another man than it had actually cost him to make it himself.
 

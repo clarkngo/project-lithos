@@ -10,7 +10,7 @@ The order had a formal term for what Malakar had become, and he had read it, eig
 
 He had built a career on precise language. He found, turning that particular phrase over during the two days' careful travel to a rendezvous point he'd arranged through channels he trusted considerably less than he once trusted his own signature, that precision cut both directions. *Unrestricted* was not a word the order used lightly. It meant, stripped of its careful clause-stacked armor, that the same doctrine which had once required him to document every force parameter before exercising it now permitted, against him specifically, whatever force a man judged necessary.
 
-He had built the sympathizer network anyway, because the alternative — silence, exile, a life spent entirely inside the camp's borders while the order he'd served for eleven years went on operating exactly as it always had — had proven, across eight months of trying to accept it, considerably harder to live with than the risk.
+He had built the sympathizer network anyway, because the alternative — silence, exile, a life spent entirely inside the camp's borders while the order he'd served for twenty years went on operating exactly as it always had — had proven, across eight months of trying to accept it, considerably harder to live with than the risk.
 
 Three Wardens so far. A garrison clerk at Long Reach who'd quietly begun misfiling recovery orders the same way Malakar once had. A line Warden at the eastern crossing who'd sent, through two separate intermediaries, a single unsigned message: *I read the Long Seam file when it finally got declassified. I don't think I agree with what we did to that boy.* And now, waiting for him at a disused weigh-station considerably less collapsed than the one nine years of stories had made half-legendary among the crossing trade, a third contact who had asked, through the same careful channels, for a meeting rather than a message.
 
@@ -30,9 +30,9 @@ Something in Malakar's chest went very still, the old precise cataloguing instin
 
 ---
 
-They sat, in the end, on the ruin's collapsed sill, the same stretch of stone where a trade for six shards had once gone catastrophically wrong nine years and one whole lifetime of consequence ago, and Orell was quiet a long while before he spoke again, his voice carrying none of the flat command cadence Malakar remembered from eleven years of taking his orders without comment.
+They sat, in the end, on the ruin's collapsed sill, the same stretch of stone where a trade for six shards had once gone catastrophically wrong nine years and one whole lifetime of consequence ago, and Orell was quiet a long while before he spoke again, his voice carrying none of the flat command cadence Malakar remembered from twenty years of taking his orders without comment.
 
-"I read your file," Orell said. "All of it, this time — not the clause-stacked version built to survive tribunal, the actual account, pieced together from every report that crossed your desk in eleven years of service. I want you to understand that I did not come to this meeting out of sentiment. I came because I have spent eight months watching this order do, in your absence, exactly what you apparently spent the last several years of your service quietly suspecting it would do the moment nobody dry enough to document it properly was left standing in the room."
+"I read your file," Orell said. "All of it, this time — not the clause-stacked version built to survive tribunal, the actual account, pieced together from every report that crossed your desk in twenty years of service. I want you to understand that I did not come to this meeting out of sentiment. I came because I have spent eight months watching this order do, in your absence, exactly what you apparently spent the last several years of your service quietly suspecting it would do the moment nobody dry enough to document it properly was left standing in the room."
 
 "What's happened," Malakar said, and heard, in his own voice, something that eight months of a life outside the order's clause-stacked walls had loosened — not less precise, but less armored, a man asking a question because he genuinely needed the answer rather than because doctrine required the asking.
 
@@ -42,7 +42,7 @@ Malakar sat with that a long while, the old stalled clause forming behind his ow
 
 "I'm sorry," he said, and meant it in the whole unarmored way eight months among people who said hard things plainly had taught him to mean things now.
 
-"I don't want your sorrow, Malakar. I want your network." Orell turned to look at him directly, and something in his tired composed face held, for the first time in eleven years of Malakar knowing him, real and open uncertainty. "I am not defecting. I want that said plainly, because I don't yet know if I have the particular courage it took you to walk away entirely, and I won't insult either of us pretending otherwise. But I am no longer willing to stand inside an order that kills families over paperwork and calls the killing doctrine. I want to know who else feels the same, quietly, from the inside, and I want to know it without the order finding out I've been the one asking."
+"I don't want your sorrow, Malakar. I want your network." Orell turned to look at him directly, and something in his tired composed face held, for the first time in twenty years of Malakar knowing him, real and open uncertainty. "I am not defecting. I want that said plainly, because I don't yet know if I have the particular courage it took you to walk away entirely, and I won't insult either of us pretending otherwise. But I am no longer willing to stand inside an order that kills families over paperwork and calls the killing doctrine. I want to know who else feels the same, quietly, from the inside, and I want to know it without the order finding out I've been the one asking."
 
 ---
 
@@ -52,7 +52,7 @@ Malakar gave him three names, in the end — the clerk who could no longer be pr
 
 "Fair," Orell said, rising with him, and something in the single flat word carried, underneath it, the particular respect of a man being measured honestly rather than kindly. "I'll tell you this much for free, since I imagine it costs me considerably less to say than it once would have: whatever you're building out here, Malakar — the camp, the rite, whatever quiet resistance you're stitching together one clerk and one surgeon at a time — I find myself, against every year of training that should have made this impossible, hoping it holds. I'm not ready to say that to anyone wearing this uniform. I am, apparently, still willing to say it to you."
 
-He turned to go, unhurried, the same disciplined tread Malakar remembered from eleven years of following it without question, and stopped once, a dozen strides off, without turning back.
+He turned to go, unhurried, the same disciplined tread Malakar remembered from twenty years of following it without question, and stopped once, a dozen strides off, without turning back.
 
 "The order will send someone else eventually," he said. "Someone considerably less inclined toward this particular conversation than I was. Watch for that, Inquisitor. I'd rather not be the reason you weren't."
 

@@ -8,7 +8,7 @@
 
 **SERAPHINA** — archivist of the rite, and daughter of a House that survived her brother by forgetting him. Comes home in this book to be asked, politely, to help it go on forgetting.
 
-**MALAKAR** — once Inquisitor-Commander, now a man with a name on a public record. Spends eleven years of precise habit on the first sentence in his life that no doctrine can defend.
+**MALAKAR** — once Inquisitor-Commander, now a man with a name on a public record. Spends twenty years of precise habit on the first sentence in his life that no doctrine can defend.
 
 **ORELL** — a Warden captain who chose, late and at cost, which of his two loyalties had been the real one.
 

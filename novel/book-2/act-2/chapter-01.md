@@ -8,15 +8,15 @@ The Wastes let go of them on the fourth day, and Caelen felt the losing of it th
 
 "Welcome to how the rest of us have felt this whole time," Rook said, not unkindly, though something in it carried real sympathy underneath the dryness. "Turns out the great strata child's just an ordinary lost traveler out here. Comforting, in its way."
 
-"Don't get used to leaning on it," Malakar said, from a few strides ahead, his own pace unhurried but watchful in a way that told Caelen exactly whose ground this actually was. "Whatever ground-sense the Wastes gave you doesn't transfer to Warden territory, but I've spent eleven years learning this particular country a different way, and I intend to spend every scrap of that knowledge keeping the three of us breathing until we're close enough to Kesh Hollow to put it to proper use."
+"Don't get used to leaning on it," Malakar said, from a few strides ahead, his own pace unhurried but watchful in a way that told Caelen exactly whose ground this actually was. "Whatever ground-sense the Wastes gave you doesn't transfer to Warden territory, but I've spent twenty years learning this particular country a different way, and I intend to spend every scrap of that knowledge keeping the three of us breathing until we're close enough to Kesh Hollow to put it to proper use."
 
 ---
 
-They approached the garrison town two days later, not through its main road but along a drover's track Malakar swore had never once shown up on any patrol schedule he'd filed in eleven years of service, and Caelen understood, watching him navigate it with the particular careful confidence of a man walking ground he'd once owned and now had to borrow, that this return cost Malakar considerably more than the geography alone accounted for.
+They approached the garrison town two days later, not through its main road but along a drover's track Malakar swore had never once shown up on any patrol schedule he'd filed in twenty years of service, and Caelen understood, watching him navigate it with the particular careful confidence of a man walking ground he'd once owned and now had to borrow, that this return cost Malakar considerably more than the geography alone accounted for.
 
 "You served here," Caelen said, quiet, as the town's low grey rooftops began showing through the tree line ahead.
 
-"I served here longer than I served anywhere else in eleven years," Malakar said, and something in his precise voice, for once, carried real weight rather than mere procedure. "This is the desk I built my whole career from. The garrison where I first read the word *contained* and didn't yet understand what it would eventually cost me to believe it. Walking back in as a wanted man is, I'll admit, not a homecoming I spent much of the last eight months rehearsing."
+"I served here longer than I served anywhere else in twenty years," Malakar said, and something in his precise voice, for once, carried real weight rather than mere procedure. "This is the desk I built my whole career from. The garrison where I first read the word *contained* and didn't yet understand what it would eventually cost me to believe it. Walking back in as a wanted man is, I'll admit, not a homecoming I spent much of the last eight months rehearsing."
 
 The empty conduit housing Caelen still wore beneath his sleeve did considerably more work here than it ever had in the Wastes, and he understood, moving through the garrison town's outer market with his shoulders deliberately loose, his stride deliberately unremarkable, exactly how much of his own hard-won composure was being spent simply not drawing a second glance from the grey-and-brass patrols crossing the square at regular, disciplined intervals.
 
@@ -44,7 +44,7 @@ Malakar produced forged travel documents with a steadiness that betrayed nothing
 
 It was the Warden's eyes lingering a half-beat too long on Malakar's face that told Caelen the papers weren't going to be enough.
 
-"I know you," the Warden said, slow, something shifting behind his professional flatness into real recognition. "Inquisitor-Commander. I served under your command at the eastern crossing, two years back, before—" He stopped himself, and Caelen watched something complicated move across the man's face, weighing eleven years of doctrine against whatever he'd heard, in the months since, about exactly why Malakar had left it.
+"I know you," the Warden said, slow, something shifting behind his professional flatness into real recognition. "Inquisitor-Commander. I served under your command at the eastern crossing, two years back, before—" He stopped himself, and Caelen watched something complicated move across the man's face, weighing twenty years of doctrine against whatever he'd heard, in the months since, about exactly why Malakar had left it.
 
 "Before I stopped believing the doctrine was worth what it cost," Malakar finished for him, quiet, plain, no armor left in it at all. "I won't insult you by pretending otherwise. I'd ask you to consider, before you decide what to do with that recognition, whether the order you're currently serving has given you any reason lately to doubt it the same way I did."
 

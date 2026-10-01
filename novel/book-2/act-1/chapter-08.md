@@ -44,7 +44,7 @@ Varrick was quiet a long while after Rook finished, his breath careful and thin 
 
 ---
 
-Seraphina had said little through the whole exchange, Caelen noticed, her own composure carrying a weight that had nothing to do with Rook's confession, and it was Malakar, watching her with the particular careful attention eleven years of reading witnesses had trained into him, who finally spoke into the fire's uneasy quiet.
+Seraphina had said little through the whole exchange, Caelen noticed, her own composure carrying a weight that had nothing to do with Rook's confession, and it was Malakar, watching her with the particular careful attention twenty years of reading witnesses had trained into him, who finally spoke into the fire's uneasy quiet.
 
 "You've been carrying something of your own since the Underlow trip," he said, gentle but plain, the old precision arriving now in service of care rather than doctrine. "I'd rather you set it down here, tonight, alongside Rook's, than carry it alone a moment longer than you already have."
 

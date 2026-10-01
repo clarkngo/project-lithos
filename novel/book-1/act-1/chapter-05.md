@@ -46,7 +46,7 @@ It was Varrick who broke the ease of it, straightening from where he'd been half
 
 Rook's talk cut off mid-word.
 
-The patrol came down the lane in grey-and-brass, four of them, unhurried the way water is unhurried right up until it finds the crack it's been looking for, and the ordinary noise of the market did not stop so much as it lowered, folded in on itself, every stall-keeper suddenly very interested in their own hands. One of the four carried a paper, held out at intervals to be glanced at and dismissed, and as they passed close enough that Caelen's sharp new hearing could catch the words over the crackle of the fire, he heard the phrase before he understood he was meant to fear it.
+The patrol came down the lane in grey-and-brass, four of them, unhurried the way water is unhurried right up until it finds the crack it's been looking for, and the ordinary noise of the market did not stop so much as it lowered, folded in on itself, every stall-keeper abruptly very interested in their own hands. One of the four carried a paper, held out at intervals to be glanced at and dismissed, and as they passed close enough that Caelen's sharp new hearing could catch the words over the crackle of the fire, he heard the phrase before he understood he was meant to fear it.
 
 "— survivor of the Long Seam collapse, presumed juvenile, unaccounted-for remains never recovered — Guild's offering considerable weight for confirmed sighting, considerably more for the article itself — "
 

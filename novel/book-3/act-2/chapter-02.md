@@ -94,7 +94,7 @@ Seraphina stood. She did it slowly, and pushed her chair in, and put one hand fl
 
 "I would not ask you to."
 
-"But I want you to know," she said, and her voice was neither the court's nor the camp's, but something between, unsteady and clear, "that I heard what you said in the study. That you kept his name for four years. I believe that was true. I believe you love him." She drew a breath. "And I believe that is exactly why you are so afraid of the day someone says it aloud."
+"But I want you to know," she said, and her voice was neither the court's nor the camp's, but something between, unsteady and clear, "that I heard what you said in the study. That you kept his name for five years. I believe that was true. I believe you love him." She drew a breath. "And I believe that is exactly why you are so afraid of the day someone says it aloud."
 
 He did not answer. He simply looked at her, and it was the look of a man being seen, which Caelen thought, watching it, must be the worst thing that had happened to him in a very long time.
 

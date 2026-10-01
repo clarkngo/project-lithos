@@ -42,3 +42,14 @@ Whether Wardens themselves Shift on duty (a licensed triad under a badge) is sti
 Atavistic Drift is a public-order problem as much as a private damnation — a mind eroded toward predatory instinct is a future case file.
 
 When Vault knowledge surfaces, the order's temptation is suppression: not even law applied evenly, but doctrine applied where it is told to apply.
+
+## Book Two–Three: the order from the inside out
+
+<details>
+<summary>Contains Book Two–Three outline spoilers</summary>
+
+Malakar formally renounces the order in Book One's close and spends Book Two building a sympathizer network from the inside — a clerk, a line Warden, a garrison surgeon, each starting with nothing more than a quiet refusal to report. Captain **Orell**, sent to investigate the network, defects alongside him after Greyfen: a Warden containment operation kills a mother and son over an unlicensed rescue Shift, and the order's own written report files her death in the passive voice.
+
+Book Three exposes a structural rot the order never knew it had: **enforcement housings**, licensed conduits issued to Captains of containment for the field, can themselves cause Drift after a decade's wear. Captain **Roshe**, who signed the Greyfen order, begins drifting live in the Hall of Canon's hearing; Caelen anchors him in front of nine hundred witnesses, and the order suspends the issue of enforcement housings pending review. By the book's end, Malakar and Orell run a house of treatment for drifting Wardens at the old Kesh Hollow barracks — the order's own violence finally turned into the order's own care.
+
+</details>

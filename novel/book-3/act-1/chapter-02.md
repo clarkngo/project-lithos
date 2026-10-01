@@ -34,7 +34,7 @@ She lowered the page.
 
 For a moment nobody spoke. The kettle from the day of the burial still sat on the cold hearth, and Caelen found himself looking at it and not at her.
 
-"No," Seraphina said. "He does not. Four years, and a brother, and a House that let him be returned to the mountains for treatment, and in four careful sentences my father has not once written the name. Do you see how well that is done?" Her voice stayed level. It cost her visibly. "He wants me to notice the omission. He has left it there deliberately, the way you leave a door ajar to see who walks through it. If I mention Tomas in my reply, I have accepted that we are speaking of him. If I do not, I have accepted that we are not."
+"No," Seraphina said. "He does not. Nearly five years, and a brother, and a House that let him be returned to the mountains for treatment, and in four careful sentences my father has not once written the name. Do you see how well that is done?" Her voice stayed level. It cost her visibly. "He wants me to notice the omission. He has left it there deliberately, the way you leave a door ajar to see who walks through it. If I mention Tomas in my reply, I have accepted that we are speaking of him. If I do not, I have accepted that we are not."
 
 "Then you've got two ways to answer and both of them lose," Rook said.
 
