@@ -42,6 +42,7 @@ const BOOK_META: Record<number, { title: string; subtitle?: string }> = {
   1: { title: "Book One" },
   2: { title: "Book Two", subtitle: "The Tethering" },
   3: { title: "Book Three", subtitle: "The Spire's Reckoning" },
+  4: { title: "Book Four", subtitle: "The Sleeping Shore" },
 };
 
 function relativePath(globKey: string): string | null {

@@ -10,7 +10,7 @@ The Codex (`apps/codex-web`) displays this folder as the site's main art: series
 |---|---|
 | [visual-direction.md](visual-direction.md) | Palette, materials, bans, how Lithoi and cores should look |
 | [prompts.md](prompts.md) | Reusable generation prompts |
-| `world/` | Places: mine, forest, Hollow Cut, Glass Wastes, Vault, Spire, Kesh Hollow |
+| `world/` | Places: mine, forest, Hollow Cut, Glass Wastes, Vault, Spire, Kesh Hollow, third harbor, Honey Chapel, cliff road |
 | `lithoi/` | The extinct lineage — remains, reconstruction |
 | `characters/` | Cast portraits and the series key-art poster |
 | `covers/` | Volume covers (`book-N.png` art; `book-N-authored.png` with Clark Ngo for export/Codex) |
@@ -29,15 +29,15 @@ See [visual-direction.md](visual-direction.md) for palette, bans, and JRPG rules
 
 ## Current set
 
-**World:** deep-strata seam, forest above the mine, Hollow Cut, Glass Wastes, the Vault, the Spire (illustrative), Kesh Hollow.
+**World:** deep-strata seam, forest above the mine, Hollow Cut, Glass Wastes, the Vault, the Spire (illustrative), Kesh Hollow, the third harbor, the Honey Chapel, cliff road at night.
 
-**Cast:** Caelen (child and adult), Varrick. **Book Two:** Kell, Voss, Fenn, Orell. **Book Three:** Reth, Ilvane, Maren, Corwin. **Speculative** (likeness not confirmed on the page): Rook, Malakar, Seraphina. Character portraits have no overlay type.
+**Cast:** Caelen (child and adult), Varrick. **Book Two:** Kell, Voss, Fenn, Orell. **Book Three:** Reth, Ilvane, Maren, Corwin. **Book Four:** the girl, Tamsin Orre, Ondrei Vesh, Brine-Reeve Hask, Nessa. **Speculative** (likeness not confirmed on the page): Rook, Malakar, Seraphina. Character portraits have no overlay type.
 
-**Covers:** place posters for Books One–Three (`covers/book-N.png`); authored variants (`book-N-authored.png`) add **CLARK NGO** for EPUB/PDF and the Codex novel pages. Series key art (`characters/key-art-cast.png`) is the Codex home poster — Caelen, Varrick, and a costly Shift — not a volume box.
+**Covers:** place posters for Books One–Four (`covers/book-N.png`); authored variants (`book-N-authored.png`) add **CLARK NGO** for EPUB/PDF and the Codex novel pages. Series key art (`characters/key-art-cast.png`) is the Codex home poster — Caelen, Varrick, and a costly Shift — not a volume box.
 
-**Artifacts / system:** Aethel-Cores, brass conduit, Lithoi reconstruction (illustrative), a costly Shift.
+**Artifacts / system:** Aethel-Cores, brass conduit, Lithoi reconstruction (illustrative), a costly Shift, the cradle (illustrative).
 
-**Chapters:** Books One–Three, Acts 1–2 — letterless painted-cel plates at `chapters/book-N/`.
+**Chapters:** Books One–Four, Acts 1–2 — letterless painted-cel plates at `chapters/book-N/`.
 
 ## Rules
 

@@ -103,3 +103,16 @@
 - **Scale again, and then a limit.** Reth is the series' best antagonist because he is almost always right about the problem. This book should give him his best possible argument, and then show the one thing that argument cannot account for: a nine-year-old who will not be a line item.
 - **Hearing, voice, language.** The girl has no language. The book's formal discipline is to keep her out of other characters' mouths until she has one of her own.
 - **The found family's roster.** Ansel, Varrick, and Fenn are gone. This book should spend someone's *body* (Rook's hearing) rather than their life, for the third time in a different register, and should end with the roster larger, not smaller: Tamsin and the girl are family by the last page.
+
+---
+
+## As Drafted — Deviations From This Outline
+
+- **Act One, Chapter 8:** the cliff-road discovery is told in Caelen's POV, not Rook's and Malakar's, so Caelen goes along; the girl sends him off with her own first words, *Go* and *Back*.
+- **Act One, Chapter 10:** the Naming at the Honey Chapel had been deferred once by the Brine-Reeve's "let him sit" ruling, so the second spring tide forces the issue.
+- **Act Two, Chapter 3:** adds a rule not in the outline, the *held breath*: a sleeper woken too fast stops halfway, alive but unfinished, and is finished by a nine-day rite sung by one who sits beside and a second, already woken, who sings the next line. This is why the girl is the second voice in Chapter 6 and why Caelen carries the same unfinished waking.
+- **Act Two, Chapter 5:** Malakar's finding is *Appendix F*, clause F-9, which would enter every recovered person as a Guild ward with provision for "the disposition of remains" and a lifetime marrow yield of 3.8 stone. Reth signed the charter without reading the appendices and strikes the clause himself.
+- **Act Two, Chapter 8:** Reth's offer is a funded, Reeve-controlled waking of all forty-one pockets. Caelen counters with the Book Three line (fund the door, do not hold it) and the girl says *No* and *Hot* to Reth. The council accepts the Guild's money in escrow only, seven to four.
+- **Act Two, Chapter 10:** the cost the outline held back is that Caelen spends the whole of his banked coal to anchor the blast-woken boy, which finishes his own waking. He can no longer Shift, feel the cliff's pulse, or drift. Named at last in Chapter 12.
+- **Act Two, Chapter 12:** closes on Halse's survey notes, via Reth: four hundred and eleven seams with a periodic pulse along the western seaboard. That is the hook for any later book.
+
