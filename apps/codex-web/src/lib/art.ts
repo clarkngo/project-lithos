@@ -83,6 +83,26 @@ const CHARACTER_FILES: Record<string, { file: string; alt: string; speculative?:
     file: "characters/corwin.png",
     alt: "Corwin, a young Spire noble in a good grey coat, sympathetic and slightly out of his depth.",
   },
+  "the-girl": {
+    file: "characters/the-girl.png",
+    alt: "The girl of the third harbor: about nine, short dark hair with a gold gleam, green-gold cat-eyes, holding a wooden horse missing one ear.",
+  },
+  "tamsin-orre": {
+    file: "characters/tamsin-orre.png",
+    alt: "Tamsin Orre, a young tide-clerk with a short dark braid, ink-stained knuckles, and a blue sash tied too tight.",
+  },
+  "ondrei-vesh": {
+    file: "characters/ondrei-vesh.png",
+    alt: "Ondrei Vesh, Harbor-Master in a dark blue tally-button coat, spectacles on a cord, holding the Deep Ledger.",
+  },
+  "brine-reeve-hask": {
+    file: "characters/brine-reeve-hask.png",
+    alt: "Brine-Reeve Hask, broad and heavy-lidded in a salt-stiffened coat, weather-worked face.",
+  },
+  nessa: {
+    file: "characters/nessa.png",
+    alt: "Nessa, old lamp-keeper with white hair cut straight at the jaw, net-needle, keys, and an oil-can.",
+  },
 };
 
 const DOC_PLATES: Record<string, Record<string, { file: string; alt: string; caption?: string; speculative?: boolean }>> = {
@@ -167,6 +187,11 @@ const BOOK_COVERS: Record<number, { file: string; alt: string; caption: string }
     alt: "Book Three cover by Clark Ngo: the Synod Central Hall seen from a gallery, a lectern on the floor.",
     caption: "Book Three — The Spire's Reckoning",
   },
+  4: {
+    file: "covers/book-4-authored.png",
+    alt: "Book Four cover by Clark Ngo: the third harbor under honey-banded cliffs, boom chain and grey ship.",
+    caption: "Book Four — The Sleeping Shore",
+  },
 };
 
 export function bookCover(book: number): ArtPlate | undefined {
@@ -198,6 +223,15 @@ export const worldPlates: ArtPlate[] = [
   plate("world/kesh-hollow.png", "Kesh Hollow: a sealed cliff door above extraction terraces.", {
     caption: "Kesh Hollow",
   }),
+  plate("world/the-third-harbor.png", "The third harbor: stair-town, boom chain, and honey-banded cliffs.", {
+    caption: "The third harbor",
+  }),
+  plate("world/the-honey-chapel.png", "The Honey Chapel: whitewashed passage into an amber-veined chamber.", {
+    caption: "The Honey Chapel",
+  }),
+  plate("world/cliff-road-at-night.png", "Cliff road at night: white edge-stones and a string of gold lamps.", {
+    caption: "Cliff road at night",
+  }),
 ].filter((item): item is ArtPlate => Boolean(item));
 
 export function characterPlate(slug: string): ArtPlate | undefined {
@@ -216,6 +250,11 @@ const COMPANION_CAPTIONS: Record<string, string> = {
   ilvane: "Lord Ilvane",
   maren: "Custodian Maren",
   corwin: "Corwin",
+  "the-girl": "The girl (Book Four)",
+  "tamsin-orre": "Tamsin Orre",
+  "ondrei-vesh": "Ondrei Vesh",
+  "brine-reeve-hask": "Brine-Reeve Hask",
+  nessa: "Nessa",
 };
 
 export function companionPlates(): ArtPlate[] {

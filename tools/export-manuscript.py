@@ -10,8 +10,8 @@ Walk order per book:
 
 If a matching plate exists at art/chapters/<same relative path>.png, it is
 inserted after the chapter heading in a staging copy (the manuscript on disk
-is not edited). Volume covers at art/covers/book-N.png are used as the EPUB
-cover image and prepended as page one of the PDF.
+is not edited). Volume covers prefer art/covers/book-N-authored.png (else book-N.png)
+as the EPUB cover image and page one of the PDF.
 
 Usage:
   python3 tools/export-manuscript.py
